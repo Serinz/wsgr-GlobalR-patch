@@ -1,0 +1,1457 @@
+{
+  "schema": 1,
+  "language": "ko",
+  "version": "0.1.3",
+  "built": "2026-10-15T21:21:59+09:00",
+  "release": "ko-0.1.3",
+  "target": {
+    "versions": [
+      {
+        "check": "0.0.630.1",
+        "apk": "5.6.0"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "config.conf",
+      "type": "text",
+      "patchedSha256": "d4ab73a445cfa45b4ebad1cbf01b9c1c0577dd5f493e1143c73b494eddc49b03",
+      "size": 130121141,
+      "asset": "config.conf.wsre",
+      "required": true,
+      "baseSource": "files",
+      "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "ee28b11d340520e54f72e331e0d0b71a970ad8b2af17b80b67ef45d714bf38f6",
+        "size": 130123159
+      }
+    },
+    {
+      "path": "data/prefab/game/abyss_quest.unity3d",
+      "type": "bundle",
+      "patchedSha256": "dedffd014c7a70f3347b97064ac9de775890b00482d9a54144552420917d019b",
+      "size": 17189,
+      "asset": "data__prefab__game__abyss_quest.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "5f9f0595af563264150f810033938d6bdf98626fb154787f7b7a01f27c2eabe1",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "2cab814e27f6c9ea92a8ed1e4f7bc538de914a22514982d2ac3a32d17494bf51",
+        "size": 17223
+      }
+    },
+    {
+      "path": "data/prefab/game/answer_award.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6da430f1b5a71d76addb2890fbe8638b8e3726f202661528f59823f7141b77a6",
+      "size": 17452,
+      "asset": "data__prefab__game__answer_award.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "998e7192580f6f0927b97d0616297c86ebc334fcaabcaf707620f212006549ae",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "529d9ddc2014390ecd9f628c99e0254a43d07487c3e052d15c6b59a361160330",
+        "size": 17486
+      }
+    },
+    {
+      "path": "data/prefab/game/campaign.unity3d",
+      "type": "bundle",
+      "patchedSha256": "5c91a0424a6d9409c155eb845964319b3eece39dd7f8a2a90e2e1a25f654ff56",
+      "size": 134197,
+      "asset": "data__prefab__game__campaign.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "a4d11e8595e1f1da39c53189b6f09d7ee37a0cc294233a59bcb4058dd3cf249e",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "410626fdeb6735c31f4758466df94e8a7a5731d63e6f6b801be44c2a695848a5",
+        "size": 134231
+      }
+    },
+    {
+      "path": "data/prefab/game/dorm_warehouse.unity3d",
+      "type": "bundle",
+      "patchedSha256": "ec69445a401d816096bcf1a8293c9c128e18c191dbb52fb21a1e40d699d7b5c1",
+      "size": 29892,
+      "asset": "data__prefab__game__dorm_warehouse.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "fd3fd34861f200092ace519cef3c30a24faaecd2f6e924c10d3b0e6b610433d2",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "7d67741bfefd8d1fc0b94775bf78ffe6a03d32906807e08f470e880f74d9e05c",
+        "size": 29926
+      }
+    },
+    {
+      "path": "data/prefab/game/enemy_ship_detail.unity3d",
+      "type": "bundle",
+      "patchedSha256": "c582146cb4de61ce6cd25d678d81373fafc555c42f75e4b8597ddad819e32d8a",
+      "size": 37826,
+      "asset": "data__prefab__game__enemy_ship_detail.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "b1ed4f0105bd63ac5f71fc0bdab371bca6490475a347e615b9c47ea8b086f771",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "799d1c652e62d9daee0eaa7946121482b0869bc189d0c30d1ea9cc0a41a0070a",
+        "size": 37860
+      }
+    },
+    {
+      "path": "data/prefab/game/enemy_ship_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "f420f07c1cda748402cf4230f31b22f07539e36fcc0ebce2c66a267b9aee725d",
+      "size": 9949,
+      "asset": "data__prefab__game__enemy_ship_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "2eb1da7b1ea9c2a6f7e029854a639a4a68c2822fdeeba0e90f443af718950215",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "305df8a7c595373cfaa8d43ff5c8c3d26543826584856062577dc4157babedcf",
+        "size": 9983
+      }
+    },
+    {
+      "path": "data/prefab/game/fifth_awardbox.unity3d",
+      "type": "bundle",
+      "patchedSha256": "dfd35fa78acc91d196449fec7bf3cb8c66bf6bbf6a82877ebce3a75de6685cc1",
+      "size": 24759,
+      "asset": "data__prefab__game__fifth_awardbox.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "644dd85550e0884551f4cef172c005a415cb2a812ee2316f61c631882f4d6094",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "a11336b96c00ea091cc472b2d574f7916699e90e5736b5500e6be3e6b36c279d",
+        "size": 24793
+      }
+    },
+    {
+      "path": "data/prefab/game/fight_info.unity3d",
+      "type": "bundle",
+      "patchedSha256": "758c9e161ef040cd9c6b0f959126c07f199d4edb44449fbea76205c99b157c39",
+      "size": 187355,
+      "asset": "data__prefab__game__fight_info.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "4ac392a78eba2729b9117c43ecb0eef5a9e425a3a398b791d2da5b902bef32e5",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "26571bfdb0b439007da4e1a73950087e7be9d1f2d2e2e1c8cda53110cbadbd33",
+        "size": 187389
+      }
+    },
+    {
+      "path": "data/prefab/game/fight_prepare_ship_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "97184507978b74e19e176781228f4a68a55c440661a626c543abe7286f2f2691",
+      "size": 27944,
+      "asset": "data__prefab__game__fight_prepare_ship_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "85c287694e36c7330394a22110cd70b68a1e6455b7e633adccb56813f83d9fd1",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "1a80abfe4135bb3ca554a61bccb105c643dc48dfb93b6feb45377831331b9f7d",
+        "size": 27978
+      }
+    },
+    {
+      "path": "data/prefab/game/mall_shop.unity3d",
+      "type": "bundle",
+      "patchedSha256": "018cb1ed06e896442929470354550b5741493f0b3be952eb5511b38daa9b59db",
+      "size": 43806,
+      "asset": "data__prefab__game__mall_shop.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "60fe2972027c191e9d291a3a257af0185cc293eaef2cc6da1baff32645fc059d",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "602a3fa2c2194639c82e9f16c92bcb8daaaea7f5c7ab8c1a6fa82ca7ea53b2a3",
+        "size": 43840
+      }
+    },
+    {
+      "path": "data/prefab/game/mix_battle_plan.unity3d",
+      "type": "bundle",
+      "patchedSha256": "3872a472225338273a56998a0415c1c7a149de9d2c62834b70046246266f8c0b",
+      "size": 13929,
+      "asset": "data__prefab__game__mix_battle_plan.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "32625a9cb1cea32677d9f0a50c01a9405a046a0902e31aad650918d5a4cdaabc",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "984aaf21a1345295fa8fd7753d0121146cc3202d6fe2ef21eb8e4b5ad329db90",
+        "size": 13963
+      }
+    },
+    {
+      "path": "data/prefab/game/nf_map_node.unity3d",
+      "type": "bundle",
+      "patchedSha256": "812d23475b4b68982aa2ea5bc54336290ca1c467e1246b0e93a24a3f93efe27b",
+      "size": 45356,
+      "asset": "data__prefab__game__nf_map_node.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "d0f020571dd2c8718d06b8001cb9e79fc35224d39bab60838f10241efe053e50",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "4f48eb6783d35d6dbb56ad843df62f5567d3cf3e2008f96e210c5750ebf3c49d",
+        "size": 45390
+      }
+    },
+    {
+      "path": "data/prefab/game/ninth_cia.unity3d",
+      "type": "bundle",
+      "patchedSha256": "c0c97b031174c4b3e0c1fbb7986cbfff599438d31a36674797bad42fb2ee2df5",
+      "size": 76982,
+      "asset": "data__prefab__game__ninth_cia.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "c24a1494a6902c6d200a9a1544994733449f87df1061b74027d5bb69c9265b26",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "3da0ecae459977acb4d8ecc6354bcbeef8c92d2e08de20b86c18916fbc516605",
+        "size": 77016
+      }
+    },
+    {
+      "path": "data/prefab/game/pve_prepared.unity3d",
+      "type": "bundle",
+      "patchedSha256": "4d309ea225d2a9fa43a86f47c74300756781c1715b694b0a92ad4e39117727f8",
+      "size": 108549,
+      "asset": "data__prefab__game__pve_prepared.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "cf1204c1e1cbac0c8b83262494a38d3002b3a3f2f3b3121eaa14109af672879f",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "d507b6855637c4b62aadf7f81f185fe262c733d2cee4a614f4b4d0acefa72d7c",
+        "size": 108583
+      }
+    },
+    {
+      "path": "data/prefab/game/score_cia.unity3d",
+      "type": "bundle",
+      "patchedSha256": "267052d742124b0ee10611a5e1505968f04cf170b6bbb3ea0b5ecdd2ab1da875",
+      "size": 72046,
+      "asset": "data__prefab__game__score_cia.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "02db495e10505e1725751356e40ac1d07bd2a78ad7c8a55c5b232d965c185c33",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "09eeedb6b7e29257d2fb6a8768f0e9a1f175d44ca8ead1a9269d8d192f71bced",
+        "size": 72080
+      }
+    },
+    {
+      "path": "data/prefab/game/select_abyss_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6393707b657df882063b26f2a3744aa8f810a90839ac14288facc9f41e2a3c9a",
+      "size": 15405,
+      "asset": "data__prefab__game__select_abyss_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "29c64a36281e36749258cff8b96136f30b36d2d2ed9257fb46d849322a61327a",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "b94232e39babdcaffd83e7f2520168feb916aa6f0f4ffc25b263ae6739e81e9c",
+        "size": 15439
+      }
+    },
+    {
+      "path": "data/prefab/game/select_tactis_view.unity3d",
+      "type": "bundle",
+      "patchedSha256": "64a0f5f6075aa78d8bd4184032fceb0c476c0a308cc531769d35d1a12ac30f2e",
+      "size": 13055,
+      "asset": "data__prefab__game__select_tactis_view.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "a2872dff2647db7dcb3f609f5171d7b6ac0f694643a4588f05ebe40b923ef1d2",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "5062ddee654cd92c3ec1bdd74248c2112516a93afb2f33953c26a1e8b1791556",
+        "size": 13089
+      }
+    },
+    {
+      "path": "data/prefab/game/ship_clerk_prepare.unity3d",
+      "type": "bundle",
+      "patchedSha256": "ad499a2515d508c8c45cf37a27adfd75701821f0c84256f713ff6b6fb37211bb",
+      "size": 20034,
+      "asset": "data__prefab__game__ship_clerk_prepare.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "9a17620af3f6320dfb2172b5a04aeee90fdbc94ec4ba07999a1b599d1071a04b",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "b34fa328cb7ea45851670fc1703352929652e5f3b05f4a8b47134e2a711595fa",
+        "size": 20068
+      }
+    },
+    {
+      "path": "data/prefab/game/ship_clerk_prepare_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "cea31c6ef96cfe5f8bce25e88803878696dace9e22edd32cb91876543ef811e9",
+      "size": 11536,
+      "asset": "data__prefab__game__ship_clerk_prepare_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "032601fc51d3bac08fbb89f423af926c039ca9bc5fef1b00d067d08da823c339",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "d1473b95908f0772c778d71bab8dc4d4edc2989e52c0fe86197117dc61d37d50",
+        "size": 11570
+      }
+    },
+    {
+      "path": "data/prefab/game/single_change_skin_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "40f070abebbbd4d51994a7d05f04bf031327bdb93c5e29b6b1c49a910612c6a1",
+      "size": 16435,
+      "asset": "data__prefab__game__single_change_skin_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "f89a5e155fb6555d5c4f602e927ee266f9a09d12a8ff801b7435b295a70d3b9f",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "b33caeace273a6e689d14b13ca46477a0c8999938ab3deaffba92eac07a53d0a",
+        "size": 16469
+      }
+    },
+    {
+      "path": "data/prefab/game/single_mall_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "9a078a7043e42f2f129910eae216c3eed11753bb9cd7c3f98b9759f97739e2c0",
+      "size": 9497,
+      "asset": "data__prefab__game__single_mall_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "cdc0a322ec6861ed73ca9191e72fdda6a24384e4cac568eb57dbba3f447a07a7",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "55fe96ba46f4864cc8cc8fc9187a691bb2fa5a0b5e60fa9c3adb9990eb67b619",
+        "size": 9531
+      }
+    },
+    {
+      "path": "data/prefab/game/single_repair_ship.unity3d",
+      "type": "bundle",
+      "patchedSha256": "0c5db088b1d26dc11af5efa9480c55d2b14ca834600defd8bb1ba5ea6f737469",
+      "size": 12190,
+      "asset": "data__prefab__game__single_repair_ship.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "39246a20a087572ff0602bab60c5ff7014899d5205cc99092a83d6eed0228919",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "59220a6a4542fcf508cac7b6c24e66fad879c7d2cc30342b484d9480413bbe42",
+        "size": 12224
+      }
+    },
+    {
+      "path": "data/prefab/game/single_select_ship_and_buff.unity3d",
+      "type": "bundle",
+      "patchedSha256": "f94e3d0756de47ff13f941b86ea9f408cf99107009ab0458a83c438bbd9ec4d7",
+      "size": 18067,
+      "asset": "data__prefab__game__single_select_ship_and_buff.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "ec2cce1aa89e5db646d051ec69fa0dafaa4e84afc8cba91c05df26818a44a90c",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "f88def05790faf391e300a413f1dcfdc0edf1a7c94d69a5cd15191a47cec88a3",
+        "size": 18101
+      }
+    },
+    {
+      "path": "data/prefab/game/single_select_team.unity3d",
+      "type": "bundle",
+      "patchedSha256": "8a99dbc11830b88af9bf58870de0f76db4b87ffba057f1c1eb1a7b4d9bd615c3",
+      "size": 31736,
+      "asset": "data__prefab__game__single_select_team.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "3153e1295b463dfd8f5b315fa01956410375730aa7a3ab54d4c90e2ddfd03851",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "e2f8e3a9d05a41dfa34c75bf4e485604394c44b8762c241ed16c3bcbb96c41e4",
+        "size": 31770
+      }
+    },
+    {
+      "path": "data/prefab/game/single_ship_map.unity3d",
+      "type": "bundle",
+      "patchedSha256": "b379cacd1873037b619535a7053b8e01b6a74f5388478460a846a025eedd18c9",
+      "size": 10436,
+      "asset": "data__prefab__game__single_ship_map.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "50393d7967ff37395a12e7202bade3311374c0265256c1b70eeb44b0e4f56efc",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "ef1b5f8dc481681e765a9ac0424125e6cdf47800567f003aa75dbf4cf5444e2c",
+        "size": 10470
+      }
+    },
+    {
+      "path": "data/prefab/game/sixth_map_node.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6d7e2ffcc4854ff597d53934bc2fa3c748435cc6970d37bd065f78c55359989e",
+      "size": 46897,
+      "asset": "data__prefab__game__sixth_map_node.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "30c1cfa1343ebe74a0a7e740ab281acb666220e1331a10cdd8efccd74a1e839d",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "82cefce0da6591ac041abea0e32f6000779e07fda4c76b13ecf1a7516980e5dc",
+        "size": 46931
+      }
+    },
+    {
+      "path": "data/prefab/game/voucher_shop.unity3d",
+      "type": "bundle",
+      "patchedSha256": "0f79c16c63edc6c72f34826276852f203cda2f7ce8c5490f73f4235f80e049b9",
+      "size": 49064,
+      "asset": "data__prefab__game__voucher_shop.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "785f197962c82fc65f0393bca964b1e222994c1c6286e972cc0ae066d6dceb3c",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "6b0985aa8210cf9bb5dbbd74ce2b68203a329c3307097aac67a73558b7312f10",
+        "size": 49098
+      }
+    },
+    {
+      "path": "data/prefab/game/work_shop.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6eb463f91aa9a1e49270ed102da9b80ad9fd6219c01430363290dd3b4fabd924",
+      "size": 25286,
+      "asset": "data__prefab__game__work_shop.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "06dffcae25bf016f37b50f32b795058ec8d6522c3c7972a110ec0a7321d3a571",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "6e1f0f353dd38bfa311f38ec4be6b972ac0165eaa6e8bddfc172c6a422497f71",
+        "size": 25320
+      }
+    },
+    {
+      "path": "data/ui/activity/main.unity3d",
+      "type": "bundle",
+      "patchedSha256": "488956daa29959bb9da20e57786d84f0b249420fd494d80ebccc04af1e022793",
+      "size": 564994,
+      "asset": "data__ui__activity__main.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "48d78a5f324e991ff4a729d792cd0a425ec9f9629cd295a41e2d734634597a86",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "8fe88055fac7312efc122ad92a7a309283eec424a50e888b8b700323243734cb",
+        "size": 565028
+      }
+    },
+    {
+      "path": "data/ui/activity_more_fleets.unity3d",
+      "type": "bundle",
+      "patchedSha256": "bcb12977af3c1030943c88d683f06647fc71e07005aa135af628a4b8eca5cb35",
+      "size": 985686,
+      "asset": "data__ui__activity_more_fleets.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "33ef3f46532d58932a92982cb9154e877588ba7db6db0b8f85d95c66a13fa9eb",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "c5af2763c4f748cded8bf6960afd003b837a139778b9a2f29ec410f6ac31a0b5",
+        "size": 985720
+      }
+    },
+    {
+      "path": "data/ui/captain_room.unity3d",
+      "type": "bundle",
+      "patchedSha256": "75fc4fdf54eecd823757b8cdb2aa1d478c9b429f8bdc056faa8dfca0c14846c6",
+      "size": 1591730,
+      "asset": "data__ui__captain_room.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "47ba3c1dc523a13c62dbe0f6f002e8d5214231443eaa98e75dcdc2c46f5cbc4f",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "0c6295ca2902ba41d120fe1f478cd24b8608d2aa2df1bf4a3b95ef8d8349f68e",
+        "size": 1591780
+      }
+    },
+    {
+      "path": "data/ui/common.unity3d",
+      "type": "bundle",
+      "patchedSha256": "41f79502a137c44ea080c164c038696ca8721ca94f183e882a9ba6b19523e856",
+      "size": 999823,
+      "asset": "data__ui__common.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "a54e396b9f6676e7548c8a6a7d63107b1a308e7a8ac607ac59910e0f46eeeb76",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "f86702f1e5f18c97c59fe573e0b1c3f1e9c7afbc29ec4de491a0f80029fc0413",
+        "size": 999857
+      }
+    },
+    {
+      "path": "data/ui/eight_year_activity/main.unity3d",
+      "type": "bundle",
+      "patchedSha256": "3f7ac43118367f6c9c4e4a3282fcf4182b99011d2deae02bba3cf1a1e230154a",
+      "size": 5420888,
+      "asset": "data__ui__eight_year_activity__main.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "4be91f5f870f7c09136af6246f963bb99686161ed45119813dc1d4035bb3afe9",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "72ad3e9ce766033afcc7fe91589f5637dec1aa076b8a85b443140e900834f155",
+        "size": 5421002
+      }
+    },
+    {
+      "path": "data/ui/friend.unity3d",
+      "type": "bundle",
+      "patchedSha256": "ad301759d96a404e6e25bac35e04513260451f2ef5732551823849f0595ef28c",
+      "size": 432720,
+      "asset": "data__ui__friend.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "42145741fac07d6ff46911d38e8ae0b99ea5b45e4b3aa3dc9f7c6ed62defa180",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "c0c7f4b6ebf3ac8af2b340870418da43559441dd43e0d3e0608b0e55276d62d1",
+        "size": 432754
+      }
+    },
+    {
+      "path": "data/ui/furniturecase.unity3d",
+      "type": "bundle",
+      "patchedSha256": "59e30e779fb3826dcd62275350ba0128b31b5bb1bd878194ff688abe65bcda79",
+      "size": 1363561,
+      "asset": "data__ui__furniturecase.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "5a9cdfc6937afc5d90d966f3a93d37f0ce57fb21a56f39ca1fd19726fd596834",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "e29ccfb66c6cbc95adad834675acc5f6e351973162824977e9f1cf890c30f02e",
+        "size": 1363611
+      }
+    },
+    {
+      "path": "data/ui/guide_pic.unity3d",
+      "type": "bundle",
+      "patchedSha256": "60029b32f485cb958d9b08d93526a5d2121c57710825e49cf2981c99130af19d",
+      "size": 2284946,
+      "asset": "data__ui__guide_pic.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "a28f68b8be239d072c653a1f0fdee61398aab9bc37069f6ad88ef7074e4eae54",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "23c318588b5d2e0a08d5171fb8bed38b465c3c12a2e0465e56be9a5dd5ce72fa",
+        "size": 2285012
+      }
+    },
+    {
+      "path": "data/ui/living_areas.unity3d",
+      "type": "bundle",
+      "patchedSha256": "1573288f908ab3e13593d71b87d13ab90e2f5d00ae5669ac312a1e18a32d3dfc",
+      "size": 1283529,
+      "asset": "data__ui__living_areas.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "316e1a1fcb6ffc6c80626a865e617d19f195f3d66bef209b15208b03f48417f5",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "11f504ef4cb3e3a0645dae14d05bce73989d7a10d08ca6af84d39132742fee8c",
+        "size": 1283579
+      }
+    },
+    {
+      "path": "data/ui/mail.unity3d",
+      "type": "bundle",
+      "patchedSha256": "ef5e1641c62a7ab5149fdfe1fa9da78b4a3896744db9348f4090ff97d4ffd152",
+      "size": 77282,
+      "asset": "data__ui__mail.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "98f5570d3d8a19a886e65be29e4ccdd1f922c6b5a3c470110c787d05d4ae6b79",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "324afa057a6470fb7eff070125b91c25be92c01b23c4a41cf8d49068d1cd31e0",
+        "size": 77316
+      }
+    },
+    {
+      "path": "data/ui/normal_war_event/buff_store.unity3d",
+      "type": "bundle",
+      "patchedSha256": "86bc771a4ec165e95d5bfd776add0b1e5eb3828ab8dc2d9e54b4f14ba89109b3",
+      "size": 96172,
+      "asset": "data__ui__normal_war_event__buff_store.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "62a3294b1c595172a0cc899694ae26adeff444320455d6bbad63dd77b182c18e",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "56cd357334e2b535f7ff01a132d4aa7a3c191d8732d1d24b8b5ace3e997187d1",
+        "size": 96206
+      }
+    },
+    {
+      "path": "data/ui/pre_formation.unity3d",
+      "type": "bundle",
+      "patchedSha256": "9ccd136b5645d09fd236c4a78826282470c8e51b2069c4074f228ac003be3b06",
+      "size": 11499,
+      "asset": "data__ui__pre_formation.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "6adcb209af8ee7ea579e9204d69216b42169db4d095eaf6c926a11259e3be04a",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "92d24b23f2920c53d0951eb07f0d18440b14f2dd24e330e6a4044019d1033019",
+        "size": 11533
+      }
+    },
+    {
+      "path": "data/ui/pve.unity3d",
+      "type": "bundle",
+      "patchedSha256": "064a87d9bee16f6c318b22f4da71c9efe69e917f0be78bc33d43039e8755202a",
+      "size": 1279454,
+      "asset": "data__ui__pve.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "547b2e0d3b05623b2ff94d41dbdbbb0bbedd4c5a70c3359f685a2a41382c2f14",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "92838d3d216446b09e3185cd7e9b0643b73017d853291ab1079cde5aac06e594",
+        "size": 1279504
+      }
+    },
+    {
+      "path": "data/ui/restaurant.unity3d",
+      "type": "bundle",
+      "patchedSha256": "9a39a97a828226af3d4075c3d9b673171bc8015565734fef07c147b89a350d64",
+      "size": 4005639,
+      "asset": "data__ui__restaurant.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "148c9838dc388489b3a1e38e28514d2607d6f3ec70e136bfc52c3dc182741d52",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "ca4b1ce706b4933f33151dcc7d4c184c268b882b1728da76fce8b7b2cfe7f76a",
+        "size": 4005721
+      }
+    },
+    {
+      "path": "data/ui/ribbon.unity3d",
+      "type": "bundle",
+      "patchedSha256": "f61eb06a3275cdc1f7ef3d6df03c50b35260425e0a88d216ae906420a6928d76",
+      "size": 1562101,
+      "asset": "data__ui__ribbon.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "115bf0698f30ba9cf5d74877b2280545ab1f4aa732cc60cf386b8aa288f07d02",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "640841b50c6f5bab1d5d2b72aa1fffc73d48f28b4d609c4ccb21a6a5b46c5d4f",
+        "size": 1562151
+      }
+    },
+    {
+      "path": "data/ui/score_event/main.unity3d",
+      "type": "bundle",
+      "patchedSha256": "905f5a7f74f60c7c4232aad92e5e2ec56f8480c6e344d918608f0db865bca44f",
+      "size": 997753,
+      "asset": "data__ui__score_event__main.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "1682c2ad726b9a186a744a259a545d2880a945fd779a3300a982b3cb2bab80c4",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "b92b446c01e20f9de78f3fc1c7134c85bf09a50f22d967eb043ff45b99e3640d",
+        "size": 997787
+      }
+    },
+    {
+      "path": "data/ui/secretary.unity3d",
+      "type": "bundle",
+      "patchedSha256": "c90013ed5b9e232b15dabb05e132fd15b0fdfeecf4143dbc1d8d6cbe1a106a88",
+      "size": 97823,
+      "asset": "data__ui__secretary.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "67e98673116b855eea5805c7c088a426a01653dd424a3934efe0d98edadb490c",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "6e79338d2d28eb50f44c5505b9de781cb9dad5c0b0e0c76b390540c133db6019",
+        "size": 97857
+      }
+    },
+    {
+      "path": "data/ui/seven_year_activity/main.unity3d",
+      "type": "bundle",
+      "patchedSha256": "7ab3a2563ee849ef1d634f061aeb107aadc4905d1ad4e8ecd62494d57952000e",
+      "size": 4019942,
+      "asset": "data__ui__seven_year_activity__main.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "7156119f1d220fb6b5872dee0526309acb7f34562966a34acdc26543ecf545ff",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "a2ec765a5120cdf0286cc946950495f6e64829b57aeab684049349d4e4a59763",
+        "size": 4020024
+      }
+    },
+    {
+      "path": "data/ui/ship_detail.unity3d",
+      "type": "bundle",
+      "patchedSha256": "b9c3813fa29f51ccefd12e0bb24ef52f76056420d54a1fa3b19e34c0492d7cf7",
+      "size": 1736286,
+      "asset": "data__ui__ship_detail.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "6a0fe839fd96f393f646f78d72b39a2ba5fa28e992b87e2688bf0c944794aabc",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "173dfa7a7ed3b40b5deb8b75ac1931d69a2b67d24c9f0ff623c8dcc8c3a00ff1",
+        "size": 1736336
+      }
+    },
+    {
+      "path": "data/ui/six_year_activity.unity3d",
+      "type": "bundle",
+      "patchedSha256": "396b5a28b54d2c80be5834d6263ddc08ceba5fbf484614766914570fe57dde8a",
+      "size": 847740,
+      "asset": "data__ui__six_year_activity.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "df334c908e135f985511172a32a0744c5be9f4fea21b3c561daa91da5dad041f",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "fe22597d7e9e3be7c502a6eccb284253dd47321fefd14e8791b8bad5b02e780e",
+        "size": 847774
+      }
+    },
+    {
+      "path": "data/ui/six_year_activity/six_main_interface.unity3d",
+      "type": "bundle",
+      "patchedSha256": "a69a7a29011ea238530eacd78963a576796301426c16121cb62a0894340e6e19",
+      "size": 18249565,
+      "asset": "data__ui__six_year_activity__six_main_interface.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "3819ee68babe19cc249a3be3dceabe4938439c2b1c464ba7bd27bdc9925241bc",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "44ae29cbeb03846ad7a4647e95bad70138d8a24838e63d20fb7864d3fcc5701a",
+        "size": 18249871
+      }
+    },
+    {
+      "path": "data/ui/special_task.unity3d",
+      "type": "bundle",
+      "patchedSha256": "152733a9134bf408f3010e888cb0ad7aa4d0c6bc3f2855f8109293f39b212282",
+      "size": 161164,
+      "asset": "data__ui__special_task.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "48b1f2b0630a67c2cd2726137a0c8d19ac1795edd672ee2caa644eca199bfd85",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "6a52dce7951369a70702d74dbee193c17024148f374a94295b60c0df7b68f0b5",
+        "size": 161198
+      }
+    },
+    {
+      "path": "data/ui/strongattack.unity3d",
+      "type": "bundle",
+      "patchedSha256": "c53c648e38ad6efbb233f4c7b7826347b2d8930381ba25e2cc6074dd79c43090",
+      "size": 9712242,
+      "asset": "data__ui__strongattack.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "fd7114cc9bb6137202531419a903ee57c65e1f83bd4d8e5b87947ba6fea097e6",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "4b4ff96a7c34afbd892599f5c5deca671f68df8a89ca14b5ca1139d6081671e1",
+        "size": 9712420
+      }
+    },
+    {
+      "path": "data/ui/strongattack/strongattack_illustration.unity3d",
+      "type": "bundle",
+      "patchedSha256": "f39d63deea3139297a54a693848d2513aaf574410a32df33966763b3c9e659f4",
+      "size": 114815,
+      "asset": "data__ui__strongattack__strongattack_illustration.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "3a91b2ec481fe45aaf801a6ac4900deeab1b1e4ab1a168f6f414643058d1bad4",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "a826838f9a5a0859c19a31b898405b795bf8c8deaf66d6a564c590552325acac",
+        "size": 114849
+      }
+    },
+    {
+      "path": "data/ui/strongattack/strongattack_reward.unity3d",
+      "type": "bundle",
+      "patchedSha256": "3dff9dddf1f4ce92a48cb417da938060a6d1e08ebb74aff501770a2ca1ac0f7e",
+      "size": 134015,
+      "asset": "data__ui__strongattack__strongattack_reward.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "2056c9e69e266059c8bbcb617f4d1630ca735abf1291c9d45cc79763f7a3fea2",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "14dac8086d8aaa75d42bdc2a5f2ac7c207e9272bba4eaedfc8d5fe7c119ad7ab",
+        "size": 134049
+      }
+    },
+    {
+      "path": "data/ui/tower/tower_buff.unity3d",
+      "type": "bundle",
+      "patchedSha256": "103f45f8ec5484a130fd6eb2d4782e7268aeaf8294afbbadbca3472bd73781e9",
+      "size": 1249749,
+      "asset": "data__ui__tower__tower_buff.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "5487ad24575844c38a511897bf482955164757d05890686c67a09fceb26d10ac",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "97e63973ff42d26ade0df8774979bed0b909663a18cd74110d2f149ea47b6cba",
+        "size": 1249799
+      }
+    },
+    {
+      "path": "data_cn/effect_cn/encounter_new.unity3d",
+      "type": "bundle",
+      "patchedSha256": "361f9b7b064ac3a0e12f09aafdfd7921ce0c15db01e3e2ff483c9c7c447909fb",
+      "size": 327019,
+      "asset": "data_cn__effect_cn__encounter_new.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "aaea15755b66743413d1940da632792a32f52dae57bdf857ff039be30e22ced7",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "9e87dbbd25c613ce24c10ecbfdb28ae4b1ca3df10060f1e5f11a6927a7366e81",
+        "size": 327053
+      }
+    },
+    {
+      "path": "data_cn/effect_cn/lock_the_enemy.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6b050c6aa52c68f46edb2f79ac30641729f764beabbf0149ac3de6594f0ea169",
+      "size": 257513,
+      "asset": "data_cn__effect_cn__lock_the_enemy.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "9e1e2a187280ac5946aaf146a92879bb9273ed02dba14fb68673c7e6308878e6",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "9b12a3bb5f41310557428b20f21bfae65fa61a78c25ab43d269dc9a1f6afea82",
+        "size": 257547
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/abyss_dock_team.unity3d",
+      "type": "bundle",
+      "patchedSha256": "bca7e0ddff34fa62e2bfbaa65cd1476e7f5ca649852abd3c7d7ef53eee00a376",
+      "size": 71701,
+      "asset": "data_cn__prefab_cn__game__abyss_dock_team.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "4fa5f0726e46f85fe0afbd650bcf2a47e171719c128be710e518f88d694addac",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "0ec2330c27e690b77b4536a8d9cfea6ad92b72128514a6b9864f4b7d2c3751b1",
+        "size": 71735
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/abyss_single_ship.unity3d",
+      "type": "bundle",
+      "patchedSha256": "6223ece8fd8ad2bf9da3078a5d9b2ab1807b9ef8bf37b6aaf44469ffc6915420",
+      "size": 21328,
+      "asset": "data_cn__prefab_cn__game__abyss_single_ship.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "f6b81dc024fb57d3244458994461165b5296c1a53276063b0a166a1ba78c187d",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "59536df9d98692ab1e83d20432555b101bafdee93693ece2371d37ded848f5e0",
+        "size": 21362
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/remake.unity3d",
+      "type": "bundle",
+      "patchedSha256": "dadec77bee81bd5e01def8597c75fc4360a1b6a0df84247134e349559f0e7556",
+      "size": 61895,
+      "asset": "data_cn__prefab_cn__game__remake.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "8ca09b31e50f941304443f38354bd1dddfe6c841b4485ec91c81a092f11d692a",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "2060c38938266c5ec39f03932c96980ab40f092b23d8c828fbb6d0340cbeaff6",
+        "size": 61929
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/ship_detail.unity3d",
+      "type": "bundle",
+      "patchedSha256": "a96a63a7ea8e1ad12cb220f80072c5887d0384b05268ffb6c8a90c1db96f426a",
+      "size": 134599,
+      "asset": "data_cn__prefab_cn__game__ship_detail.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "e1c9b0e20f9926db06a48b667e84a60a8b84961fda8b03ca3177970c9b5b3bb8",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "2081acd80fae70e4f3eb66dfd66a586d72cb5bd85abe9de3160baa808cbe6592",
+        "size": 134633
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/single_change_skin_item.unity3d",
+      "type": "bundle",
+      "patchedSha256": "d17db897b228f7606e9a83984344ecf91bf0f8426282fbfddecc9056398288f2",
+      "size": 16395,
+      "asset": "data_cn__prefab_cn__game__single_change_skin_item.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "5c642dd97d784a7e58b0bbe04d4cb70343ad4aa353abae914996249080bd077b",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "7f06a5b3defa7e45025dc1877e3909200bb1ef784f87fb73f9734aea213c37ce",
+        "size": 16429
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/single_dismantle_ship.unity3d",
+      "type": "bundle",
+      "patchedSha256": "1ddb22c17271ac073aeb4f87a9a7ca4f3fcaf22ddf6b6708187790f2ab53422c",
+      "size": 10935,
+      "asset": "data_cn__prefab_cn__game__single_dismantle_ship.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "d0d8bec91bc12af5258aa9c7f5db01242ee57fec3232bc66ac86a87da75a37a6",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "608b92d803f9f002ba96591f7e464722ad307936b3d637fce8ec558bd2752f4d",
+        "size": 10969
+      }
+    },
+    {
+      "path": "data_cn/prefab_cn/game/single_ship.unity3d",
+      "type": "bundle",
+      "patchedSha256": "e7e4f8245ba3af3a2ad39abf9a4b30e64470f9daf4bcdff651aa2a76aac13340",
+      "size": 22559,
+      "asset": "data_cn__prefab_cn__game__single_ship.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "e0645e467fcd567a2ccab38c316fdcca9835ebf6bcaf111b5e35574326686d90",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "4bda573f827ec2f30ac36cd10ee58b87308370704236ac6a6b579b22462c18c2",
+        "size": 22593
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/4th_event.unity3d",
+      "type": "bundle",
+      "patchedSha256": "ffea1b3720c5e8291907ba0d16ef99a550e5e7bf217af990acf695e444722085",
+      "size": 88912,
+      "asset": "data_cn__ui_cn__4th_event.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "628243789dd4472bb205044e1fea1126f86cac2ccd62b281b4cabac0251f6d0c",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "afbd06b41fc50031a0119297cd59069ae24ff134a26c2ed8fb052c6f76084dfd",
+        "size": 88946
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/activity_ui.unity3d",
+      "type": "bundle",
+      "patchedSha256": "26d953fb4be651402571724fce093205c19bdd433c3d8b5c2843968e02f7954b",
+      "size": 48245,
+      "asset": "data_cn__ui_cn__activity_ui.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "de6420ac8279acfdefe02725f8642182c03a66b1b0c2eadeb75c22bb957026b5",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "c0b39e7a209608ca020730c055cff14c050ef760545b65463cc6cd09d8ce166e",
+        "size": 48279
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/bathroom.unity3d",
+      "type": "bundle",
+      "patchedSha256": "e76b03daa12b944428810c299850e2221c0b3cf9bb21574565d7195d4edd37c1",
+      "size": 186487,
+      "asset": "data_cn__ui_cn__bathroom.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "9b3f7a0a412211b4668b839f73ddb75e77ee3b341ac2d58e4504af8e96d3ce09",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "7c39239b9d3e77037c3c56e58533424fb51ea53d6c8f2400d6fffccb73103503",
+        "size": 186521
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/captain_room.unity3d",
+      "type": "bundle",
+      "patchedSha256": "7692ee57c232743def9175138edda7e3aa117ee3089ac7eb04028589753478eb",
+      "size": 3819026,
+      "asset": "data_cn__ui_cn__captain_room.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "867f23ce7cb3af475687193667d1963846613d6779939d70fde204d1902ae11a",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "12f0dfec3dc4f8ba2d3d756a9336d3fcd4239fafcbd06864ec98eaccc9250438",
+        "size": 3819108
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/cinema.unity3d",
+      "type": "bundle",
+      "patchedSha256": "acba2d3a7d421df5898a7845e59990ad7206caef6a966d50c4fa000d1e0bff8d",
+      "size": 202803,
+      "asset": "data_cn__ui_cn__cinema.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "bfd4ade5be64b6f893233d84490ecccb489d3c20b069d8569a4d5d780e2c7322",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "6725b54cb7aa28e6245fa9d336a25d298a123c7ff8eeed916725e32d77f3130d",
+        "size": 202837
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/common.unity3d",
+      "type": "bundle",
+      "patchedSha256": "143ed386363283728e4001838859b7de8afde9a67b9f791003376d8839e331a9",
+      "size": 15220,
+      "asset": "data_cn__ui_cn__common.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "8c3bc2b620684cb981a3415d40545b433bcab98462798ad21522e0e7bf28804d",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "cd009c4695a4734f7e87751841f5e4824868200e761cf3ef8b59dfc3fd015583",
+        "size": 15254
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/extra.unity3d",
+      "type": "bundle",
+      "patchedSha256": "db9df3bfa654c7face4f1a867a8f573429d76916afae3e8b5593a3988f9dc7fe",
+      "size": 686333,
+      "asset": "data_cn__ui_cn__extra.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "b9ae738af4db122168ac9098774aee729276f2b19dac4014795d0d46afcba2f7",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "9c79bc00d49daefee934f3c116a9b2aedb1d5dbe19820c802b0f13cd50d4b129",
+        "size": 686367
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/fight/ui.unity3d",
+      "type": "bundle",
+      "patchedSha256": "610f62186262b9308cc13b7df7f5a2f1d53b84cf6bee0ba3bb692c45b47bd217",
+      "size": 47677,
+      "asset": "data_cn__ui_cn__fight__ui.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "81f5ffd73bee9829b02d51a5dd180e54b9dcdbf80b76b493f91f97f3f459d8be",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "5106dda4c462bf3331c44cdf4095022a1aae1340d4136db2298683024be27c10",
+        "size": 47711
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/language_ui.unity3d",
+      "type": "bundle",
+      "patchedSha256": "28d31c929645a976ef9cebdfdcc0f20bac17f6be9785996bc1d71a29128432e3",
+      "size": 783452,
+      "asset": "data_cn__ui_cn__language_ui.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "c1db99519a984c689b21989fa951f800bdf743715028620c443d1f94412d7ff3",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "eee65b23ee0fc655df3116ab25a9d914f61d259ec2db677866e852d5f896b265",
+        "size": 783486
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/living_areas.unity3d",
+      "type": "bundle",
+      "patchedSha256": "3f1e76df1942c6d0a2ee52db4cb0de3a434295fe1440c6fd1ea34bb3945a5ac5",
+      "size": 234371,
+      "asset": "data_cn__ui_cn__living_areas.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "fe082dec6b937356affb7dcb6fa7a3c8fb84667d566b2a5d9cf8b2f391e6adbc",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "33df7d8a6c3b6325ef3bf296983a3bacb8057b44a8e1fbc4f4a978c59b38c1ef",
+        "size": 234405
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/main.unity3d",
+      "type": "bundle",
+      "patchedSha256": "44ae6e53a09092ced2ccb00740d9f87b4f6a44de13a77204888dc687ea0f8ae5",
+      "size": 5391900,
+      "asset": "data_cn__ui_cn__main.unity3d.wsre",
+      "required": false,
+      "baseSource": "files",
+      "baseSha256": "cd26c7b792d167fde28d9da218040597184198a6b4cb490bcc83db82a9a5ebaf",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "053b84598c90651ea7abb3a364e1773407175a2d8c2ea3ae3ea87567118119bb",
+        "size": 5392014
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/new_story.unity3d",
+      "type": "bundle",
+      "patchedSha256": "a6525185a5af72565858b592c4f24315eeeb23266ac42a513279acc0d5a09855",
+      "size": 23483,
+      "asset": "data_cn__ui_cn__new_story.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "29c99373d4808adfd19c18651098a72fc10a4ff62ded86efe7d8d8e09b326273",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "c5d5f9af2b2aa72e402e1391df2836f99d226d47df8a8abe40466b9094328f86",
+        "size": 23517
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/remake.unity3d",
+      "type": "bundle",
+      "patchedSha256": "dd50507b2ce3c868239d81739732fc4b40bcb4e19ac76d576c13693b413d0960",
+      "size": 26038,
+      "asset": "data_cn__ui_cn__remake.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "cb8bb50d4b5ee71982338712bd3dcccd73c895f790922d76ac1da85efad00e51",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "0acbeb9d5b26aae27c516e91c6c89bf03db5af96d05ed3f4d4bd9f23c67a207d",
+        "size": 26072
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/restaurant.unity3d",
+      "type": "bundle",
+      "patchedSha256": "62a7858a51b6681ee240d7f4ae0bf10d417a2384d022347f2b9a051d4723e55c",
+      "size": 363018,
+      "asset": "data_cn__ui_cn__restaurant.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "784569f1a309b61e5d6abed1ec4f11f3a3ee61fbeaca2f9f417aa698fe8678ab",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "3af915b4502b13521d07d9272840c3746c61c8fb7221d0e2601580aaeaa4126a",
+        "size": 363052
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/room.unity3d",
+      "type": "bundle",
+      "patchedSha256": "d7ab471cd8c2b0ed70d06f2d643cf95c3aa80c80e2f4845f9e7e3b54be0cc2df",
+      "size": 97174,
+      "asset": "data_cn__ui_cn__room.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "6af89e7332b9d916454475f77de5097ffe6443138e8132468a49c223f09e624c",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "5c6205607a4986a498f6d7cd4665f09c0e6263671bcc0dbe3bd234412373f344",
+        "size": 97208
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/school_open_view.unity3d",
+      "type": "bundle",
+      "patchedSha256": "4c89ed18d5a1c8d0b227965584b24c09bd63d271fa333eb61c21144f38b8a858",
+      "size": 29372,
+      "asset": "data_cn__ui_cn__school_open_view.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "91ee4ec3472624b302f5a78cd1147bd34dbb5181d9d2dc0e1e205b13de14856b",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "a2e2e2ff340c783266b0344cd7c1dc0c4703d785bbdc66fc43f3118a3eb01425",
+        "size": 29406
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/ship.unity3d",
+      "type": "bundle",
+      "patchedSha256": "320b145c178bf5024b23326a05486872dce3a8204e4f45cfc95cfdc3fde03203",
+      "size": 146364,
+      "asset": "data_cn__ui_cn__ship.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "8f1bbae79f0d2ce8e4b2f4c4e5bcd99e4c9de65095be03f2311392850945b1e9",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "16b475c8b19f7f657673f18bf20013839d665d0c16b57808ba5de950df95a343",
+        "size": 146398
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/shipdetail.unity3d",
+      "type": "bundle",
+      "patchedSha256": "dce45bb5a342f8578ce6d2cefb972a39d6b5f1181dd40229331d04fdf8676583",
+      "size": 379134,
+      "asset": "data_cn__ui_cn__shipdetail.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "7fe7c2c6354de720d304d3d84993b9ba76bbae099f8bac7146eb632841a50682",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "d3962de338d53eb45aa8db47f008777b04335a79bb33ac0b18c935a6d0512f9e",
+        "size": 379168
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/six_year_activity/six_main_interface.unity3d",
+      "type": "bundle",
+      "patchedSha256": "e534ef9a804ad3819983b415c06d7b5580e1541194b675a8c026d226f4b2717c",
+      "size": 104204,
+      "asset": "data_cn__ui_cn__six_year_activity__six_main_interface.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "302d562244b641ec1e74427a2282d1354d235b01c1311bbf828fe49f6dc955a0",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "8227c9fdef8dbd30f7d6b5a14e51d6fe5819637fe9c663f404f85591a950ae1a",
+        "size": 104238
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/special_task.unity3d",
+      "type": "bundle",
+      "patchedSha256": "afce95058ca410ae82bbf689ea1d0dae02af1b203cd4ffaeda564bb366b45933",
+      "size": 50444,
+      "asset": "data_cn__ui_cn__special_task.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "2f4358fd85980a848902883f9f67ed54429b4b406a31ad9bc60519b8afb6c05e",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "fd4e5d63accb0dfa67fbe851fc5d0efeaaaace9cd88e7ac385a852c48b5bf8dc",
+        "size": 50478
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/strongattack.unity3d",
+      "type": "bundle",
+      "patchedSha256": "05503986941ce6995f61e6baec5e2bc783a6d6b6bfa4a51a5f199d7bd4059d61",
+      "size": 545559,
+      "asset": "data_cn__ui_cn__strongattack.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "d44af7f16a7080a88c561f4eab537e686e44df7b0ea114a4cfdd838d87962450",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "31ccc403d904e8929ca0dd596793b2352a0ce8662b7c505d733f24797f9ee811",
+        "size": 545593
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/support_card/room.unity3d",
+      "type": "bundle",
+      "patchedSha256": "db8bd50a3519d897e36370e6247545174fd2d8632f1761ae308276a860a7e53a",
+      "size": 354363,
+      "asset": "data_cn__ui_cn__support_card__room.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "03e2a8c2a5baeca4471e6015d76d2ff59fed4629071c5c6c7f47b3ac0474cd1d",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "59f18b95a47b7f571e2f4e2b796763d20e58b668bfcffa1697204558578fc5a6",
+        "size": 354397
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/tactics.unity3d",
+      "type": "bundle",
+      "patchedSha256": "e790bcf6758a5ee3c8f5a623c6c8a903b03a252af2ad4202e2b30308b2ecfed8",
+      "size": 50155,
+      "asset": "data_cn__ui_cn__tactics.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "db81fbd929f6a02bdb563723f0d82cd9c56b86a11f451fa6f639e09fdd76e56b",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "76fa527a290af6017bbddaa54a8521cede67006a7085b56e032c96b52cb0297c",
+        "size": 50189
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/teacher.unity3d",
+      "type": "bundle",
+      "patchedSha256": "55c959258e23cd9e398ea4bd3dcddf106dd621721f24ae0c559adb531c6013fb",
+      "size": 28231,
+      "asset": "data_cn__ui_cn__teacher.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "26a755ae34c2c616463a90b08efcb87043b9fe61d766dbb511c1ea505bc4a5e2",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "ab86688d217a90a743311dfef73eedb6624beb2112bdaaf5d3a227977a4d1e37",
+        "size": 28265
+      }
+    },
+    {
+      "path": "data_cn/ui_cn/tower.unity3d",
+      "type": "bundle",
+      "patchedSha256": "cf736641957e1d52f474d0fc07871a96eda9aef5331238d3024a886414b63274",
+      "size": 158835,
+      "asset": "data_cn__ui_cn__tower.unity3d.wsre",
+      "required": false,
+      "baseSource": "apk",
+      "baseSha256": "406a13bbc7123a98291d7ad1082ca96d2245927556c664c34c7369906592a319",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "3227373fa9803ee80c58bf5a5c2d6f6caa806c2b7f6cff1902f20b3e4d069942",
+        "size": 158869
+      }
+    },
+    {
+      "path": "script.script",
+      "type": "text",
+      "patchedSha256": "739ab5a0d29c8d0cf53dcf5b5f1f546c5495e48e17dbc5c6ed29841fd1a895fa",
+      "size": 16082563,
+      "asset": "script.script.wsre",
+      "required": true,
+      "baseSource": "files",
+      "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
+      "release": "ko-0.1.3",
+      "enc": {
+        "keyId": 1,
+        "sha256": "26d29cf8dcdfa93135800e7fd21ca4aa96c27cb74a50b0bb5e82595a24aaa4bd",
+        "size": 16082837
+      }
+    }
+  ]
+}
