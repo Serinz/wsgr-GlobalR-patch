@@ -1,19 +1,19 @@
 {
-    "schema":  1,
-    "minAppVersion":  18,
-    "notice":  "",
-    "languages":  [
-                      {
-                          "code":  "zh-CN",
-                          "label":  "중국어 (원본)",
-                          "kind":  "original"
-                      },
-                      {
-                          "code":  "ko",
-                          "label":  "한국어",
-                          "kind":  "patch",
-                          "manifest":  "ko/manifest.json",
-                          "version":  "0.1.6"
-                      }
-                  ]
+  "schema": 1,
+  "minAppVersion": 18,
+  "notice": "",
+  "languages": [
+    {
+      "code": "zh-CN",
+      "label": "중국어 (원본)",
+      "kind": "original"
+    },
+    {
+      "code": "ko",
+      "label": "한국어",
+      "kind": "patch",
+      "manifest": "ko/manifest.json",
+      "version": "0.1.7"
+    }
+  ]
 }
