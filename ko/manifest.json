@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.1.7",
-  "built": "2026-10-16T17:17:33+09:00",
-  "release": "ko-0.1.7",
+  "version": "0.1.8",
+  "built": "2026-10-16T18:05:22+09:00",
+  "release": "ko-0.1.8",
   "target": {
     "versions": [
       {
@@ -16,19 +16,47 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "da68ac31b67a9b8fc7de9b9044dafe581e59e9c132bb30cd9e63202b72962329",
-      "size": 130227144,
+      "patchedSha256": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
+      "size": 130224287,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.1.7",
+      "release": "ko-0.1.8",
       "enc": {
         "keyId": 1,
-        "sha256": "28bc10e55f56326cbc6c4f2d83e75568fa08928e69a4132d1ad1b16b73de4a2c",
-        "size": 130229162
-      }
+        "sha256": "8af03bf4dc8bfaa984d29d8a37ee34f92579cdcce1cac59fba488d0baeb2324c",
+        "size": 130226305
+      },
+      "packs": [
+        {
+          "kind": "full",
+          "base": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
+          "entries": 168,
+          "asset": "config.conf.full.pack.zip.wsre",
+          "release": "ko-0.1.8",
+          "size": 9267024,
+          "enc": {
+            "keyId": 1,
+            "sha256": "24c568eb6defacd048dd5b9ba46c44f04089020c5250f8a334c0b3e014578b99",
+            "size": 9267186
+          }
+        },
+        {
+          "kind": "hotfix",
+          "base": "da68ac31b67a9b8fc7de9b9044dafe581e59e9c132bb30cd9e63202b72962329",
+          "entries": 54,
+          "asset": "config.conf.from-0.1.7.pack.zip.wsre",
+          "release": "ko-0.1.8",
+          "size": 7042359,
+          "enc": {
+            "keyId": 1,
+            "sha256": "8ddaa70614b4249352c8b2f1bee6e50cc22299e131ccaffe0feb5b66714e0e9c",
+            "size": 7042489
+          }
+        }
+      ]
     },
     {
       "path": "data/prefab/game/abyss_quest.unity3d",
@@ -645,18 +673,18 @@
     {
       "path": "data/ui/guide_pic.unity3d",
       "type": "bundle",
-      "patchedSha256": "60029b32f485cb958d9b08d93526a5d2121c57710825e49cf2981c99130af19d",
-      "size": 2284946,
+      "patchedSha256": "6cb8e0ae7a17e61bcfca3e203ed4cec89dd0e460730745d3b0491dee0ac4fa8c",
+      "size": 2278673,
       "asset": "data__ui__guide_pic.unity3d.wsre",
       "required": false,
       "group": "common",
       "baseSource": "apk",
       "baseSha256": "a28f68b8be239d072c653a1f0fdee61398aab9bc37069f6ad88ef7074e4eae54",
-      "release": "ko-0.1.3",
+      "release": "ko-0.1.8",
       "enc": {
         "keyId": 1,
-        "sha256": "23c318588b5d2e0a08d5171fb8bed38b465c3c12a2e0465e56be9a5dd5ce72fa",
-        "size": 2285012
+        "sha256": "cf9884ac60e534a732442c1c1de50152a9136678bb0d8f172e9a9763b111bc84",
+        "size": 2278739
       }
     },
     {
@@ -1559,6 +1587,88 @@
         "sha256": "ceac6adc6c413c5a040817e512db1e1302dfac42f712e1103be33fc5b885caac",
         "size": 16086478
       }
+    }
+  ],
+  "history": [
+    {
+      "sha256": "4fabf377cdea7bf867de6134f95016ce489dc2de192d7421414f620ef0b74095",
+      "size": 130227142,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "b7c88b47bf929f25b433ae8947107d1777c62227ab7cc370da88f51573fa404a",
+      "size": 130227258,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "d4ab73a445cfa45b4ebad1cbf01b9c1c0577dd5f493e1143c73b494eddc49b03",
+      "size": 130121141,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "da68ac31b67a9b8fc7de9b9044dafe581e59e9c132bb30cd9e63202b72962329",
+      "size": 130227144,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "fb79564c2d17dbac7de420c618e7fd3c59512153deb1a2a9237ed96e2dc679c0",
+      "size": 130227156,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "84b27237259e78a2b57c26155b46033f386d5560cb6ac93f90871d286caaa287",
+      "size": 80319,
+      "path": "data/prefab/game/bathroom.unity3d"
+    },
+    {
+      "sha256": "ec69445a401d816096bcf1a8293c9c128e18c191dbb52fb21a1e40d699d7b5c1",
+      "size": 29892,
+      "path": "data/prefab/game/dorm_warehouse.unity3d"
+    },
+    {
+      "sha256": "60029b32f485cb958d9b08d93526a5d2121c57710825e49cf2981c99130af19d",
+      "size": 2284946,
+      "path": "data/ui/guide_pic.unity3d"
+    },
+    {
+      "sha256": "a69a7a29011ea238530eacd78963a576796301426c16121cb62a0894340e6e19",
+      "size": 18249565,
+      "path": "data/ui/six_year_activity/six_main_interface.unity3d"
+    },
+    {
+      "sha256": "acba2d3a7d421df5898a7845e59990ad7206caef6a966d50c4fa000d1e0bff8d",
+      "size": 202803,
+      "path": "data_cn/ui_cn/cinema.unity3d"
+    },
+    {
+      "sha256": "3f1e76df1942c6d0a2ee52db4cb0de3a434295fe1440c6fd1ea34bb3945a5ac5",
+      "size": 234371,
+      "path": "data_cn/ui_cn/living_areas.unity3d"
+    },
+    {
+      "sha256": "e790bcf6758a5ee3c8f5a623c6c8a903b03a252af2ad4202e2b30308b2ecfed8",
+      "size": 50155,
+      "path": "data_cn/ui_cn/tactics.unity3d"
+    },
+    {
+      "sha256": "0179e3e5a7604584ef596d5c7ac3f57cf77a9687ab20ec8dd1e2a0227fb9f98d",
+      "size": 16086367,
+      "path": "script.script"
+    },
+    {
+      "sha256": "4962fe373e880a0a379ef3d6984435f5990c94456f7a19389aa1175c0b9f9c8e",
+      "size": 16086236,
+      "path": "script.script"
+    },
+    {
+      "sha256": "5f0d75424b6e6a502fd59012ff704a9746c4d7ee43fb14fa7ead5b48191c683c",
+      "size": 16086202,
+      "path": "script.script"
+    },
+    {
+      "sha256": "739ab5a0d29c8d0cf53dcf5b5f1f546c5495e48e17dbc5c6ed29841fd1a895fa",
+      "size": 16082563,
+      "path": "script.script"
     }
   ]
 }
