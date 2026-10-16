@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.1",
-  "built": "2026-10-16T14:03:50+09:00",
-  "release": "ko-0.1",
+  "version": "0.1.6",
+  "built": "2026-10-16T14:08:50+09:00",
+  "release": "ko-0.1.6",
   "target": {
     "versions": [
       {
