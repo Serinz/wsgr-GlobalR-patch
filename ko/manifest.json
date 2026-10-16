@@ -23,7 +23,7 @@
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.1",
+      "release": "ko-0.1.6",
       "enc": {
         "keyId": 1,
         "sha256": "a870ef3b7935852c639b8c418808ca635c118188d64a1280c1dab8b8f9364706",
@@ -74,7 +74,7 @@
       "group": "menu",
       "baseSource": "apk",
       "baseSha256": "9d487512e49e782cb63dbe59f0e132329b3c1187d44c628fed821ad6ffb124eb",
-      "release": "ko-0.1",
+      "release": "ko-0.1.6",
       "enc": {
         "keyId": 1,
         "sha256": "313ce1e4a9afae0c92f80b46f902faed78b0ed90a28653488e2d2248ec205890",
@@ -1553,7 +1553,7 @@
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.1",
+      "release": "ko-0.1.6",
       "enc": {
         "keyId": 1,
         "sha256": "4cfa38e07b4239e4370438e6936838cd0d44b8d1223a020749844cc3a59093b4",
