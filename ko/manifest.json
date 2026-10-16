@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.1.5",
-  "built": "2026-10-16T13:04:41+09:00",
-  "release": "ko-0.1.5",
+  "version": "0.1",
+  "built": "2026-10-16T14:03:50+09:00",
+  "release": "ko-0.1",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "b7c88b47bf929f25b433ae8947107d1777c62227ab7cc370da88f51573fa404a",
-      "size": 130227258,
+      "patchedSha256": "4fabf377cdea7bf867de6134f95016ce489dc2de192d7421414f620ef0b74095",
+      "size": 130227142,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.1.5",
+      "release": "ko-0.1",
       "enc": {
         "keyId": 1,
-        "sha256": "8afcad4fbd1c039b46c27eb457f5391b3cc7351ffd24ccc8c96489a3baf0ff90",
-        "size": 130229276
+        "sha256": "a870ef3b7935852c639b8c418808ca635c118188d64a1280c1dab8b8f9364706",
+        "size": 130229160
       }
     },
     {
@@ -62,6 +62,23 @@
         "keyId": 1,
         "sha256": "529d9ddc2014390ecd9f628c99e0254a43d07487c3e052d15c6b59a361160330",
         "size": 17486
+      }
+    },
+    {
+      "path": "data/prefab/game/bathroom.unity3d",
+      "type": "bundle",
+      "patchedSha256": "84b27237259e78a2b57c26155b46033f386d5560cb6ac93f90871d286caaa287",
+      "size": 80319,
+      "asset": "data__prefab__game__bathroom.unity3d.wsre",
+      "required": false,
+      "group": "menu",
+      "baseSource": "apk",
+      "baseSha256": "9d487512e49e782cb63dbe59f0e132329b3c1187d44c628fed821ad6ffb124eb",
+      "release": "ko-0.1",
+      "enc": {
+        "keyId": 1,
+        "sha256": "313ce1e4a9afae0c92f80b46f902faed78b0ed90a28653488e2d2248ec205890",
+        "size": 80353
       }
     },
     {
@@ -1529,18 +1546,18 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "4962fe373e880a0a379ef3d6984435f5990c94456f7a19389aa1175c0b9f9c8e",
-      "size": 16086236,
+      "patchedSha256": "5f0d75424b6e6a502fd59012ff704a9746c4d7ee43fb14fa7ead5b48191c683c",
+      "size": 16086202,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.1.5",
+      "release": "ko-0.1",
       "enc": {
         "keyId": 1,
-        "sha256": "418b57d4b7b162c6fb93254dc0b7b6e97ae830534d30e3895ed01ae02f4c2d53",
-        "size": 16086510
+        "sha256": "4cfa38e07b4239e4370438e6936838cd0d44b8d1223a020749844cc3a59093b4",
+        "size": 16086476
       }
     }
   ]
