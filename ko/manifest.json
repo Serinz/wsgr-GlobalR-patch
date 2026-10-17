@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.2",
-  "built": "2026-10-17T13:29:04+09:00",
-  "release": "ko-0.2.2",
+  "version": "0.2.3",
+  "built": "2026-10-17T16:59:16+09:00",
+  "release": "ko-0.2.3",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "3e3b4267d2ca2fd14a9bd384bc3716e56ea8e6e9f43ae21bbeb0654fd8bf01fd",
-      "size": 130224381,
+      "patchedSha256": "b40b9d2a376d3813ebac3525c950ecf7b90b2383b769b4ae5a81258d27d48dae",
+      "size": 130225171,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.2.1",
+      "release": "ko-0.2.3",
       "enc": {
         "keyId": 1,
-        "sha256": "54f258ac252162727d9dd044456c9604ce68fd151004708da1ae758f6f7427ad",
-        "size": 130226399
+        "sha256": "83af397b1a4d15942e0db10c16056a3f86a0b6b24bbb3c97d31ca1a3bb7c3a22",
+        "size": 130227189
       },
       "packs": [
         {
@@ -35,25 +35,25 @@
           "base": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.1",
-          "size": 9267132,
+          "release": "ko-0.2.3",
+          "size": 9267269,
           "enc": {
             "keyId": 1,
-            "sha256": "7f7d66f907ec7ad2089aeea9bdb1d95c628f9617107fda6f986bb6b77c21e78c",
-            "size": 9267294
+            "sha256": "ba9cd7e16e8f85af227fc80a7a127cea0db207092058627c092752d1fda93b85",
+            "size": 9267431
           }
         },
         {
           "kind": "hotfix",
-          "base": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
-          "entries": 4,
-          "asset": "config.conf.from-0.1.8.pack.zip.wsre",
-          "release": "ko-0.2.1",
-          "size": 4703751,
+          "base": "3e3b4267d2ca2fd14a9bd384bc3716e56ea8e6e9f43ae21bbeb0654fd8bf01fd",
+          "entries": 10,
+          "asset": "config.conf.from-0.2.2.pack.zip.wsre",
+          "release": "ko-0.2.3",
+          "size": 4111283,
           "enc": {
             "keyId": 1,
-            "sha256": "c93a4fba69947fbb36d87f3e78cd10ae03b9183d599dec047ba58ca6c05c1d26",
-            "size": 4703849
+            "sha256": "f4eea242ccaf98af3ff3c25a51afe073946e7cc80df5464ea1c77e4f60bb1eae",
+            "size": 4111365
           }
         }
       ]
@@ -129,17 +129,17 @@
     {
       "path": "data/prefab/game/dorm_warehouse.unity3d",
       "type": "bundle",
-      "patchedSha256": "34a2c75934f9f21b7d93ac248ba918facad4f65a6593e58b4621c7f3988faa54",
+      "patchedSha256": "55a91d00b285fbc8ca9d87ef039f14b88703426f6ff0a8f319b1a7f7a077c8a9",
       "size": 29892,
       "asset": "data__prefab__game__dorm_warehouse.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "files",
       "baseSha256": "fd3fd34861f200092ace519cef3c30a24faaecd2f6e924c10d3b0e6b610433d2",
-      "release": "ko-0.1.5",
+      "release": "ko-0.2.3",
       "enc": {
         "keyId": 1,
-        "sha256": "54ed179ea1c77ebc1708c385561060100d942d001e8e338a3a8d1cac53088510",
+        "sha256": "a57b722437cb63e17db73bdcedcaa3248703f700b581143d71df14145bc90fe5",
         "size": 29926
       }
     },
@@ -639,18 +639,18 @@
     {
       "path": "data/ui/fight/skill.unity3d",
       "type": "bundle",
-      "patchedSha256": "3c13307c50019031387f3a88a63f2729c46b6b1fa72f794f061f7fb9b7fd59e6",
-      "size": 1199671,
+      "patchedSha256": "f57a11999f09d747521fdbfd26ece30399234aa876439d536d764a2f2e856569",
+      "size": 1069603,
       "asset": "data__ui__fight__skill.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "files",
       "baseSha256": "fd7397f04516aa621f61d0febb8d5f0c8a5e59b0e2a680dd8860239ba7fc3360",
-      "release": "ko-0.2.2",
+      "release": "ko-0.2.3",
       "enc": {
         "keyId": 1,
-        "sha256": "2667b2cfa73a6ae79bfe7da2ea3445d2efdd062a3288e1ccc8f09616b0ab6671",
-        "size": 1199721
+        "sha256": "cd253acd6daeb6e4be3a4501948655b58b642f600b4c83dbabbcdcdd1d06bd69",
+        "size": 1069653
       }
     },
     {
@@ -1591,18 +1591,18 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
-      "size": 16086127,
+      "patchedSha256": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
+      "size": 16086246,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.2.1",
+      "release": "ko-0.2.3",
       "enc": {
         "keyId": 1,
-        "sha256": "1de78238e4addf02f8911368bdc63ba04d901fd54ba0a5abbb9511132f01d719",
-        "size": 16086401
+        "sha256": "e33fd6b4ad742f451e68676be16bed003add67d84cbc4d8617c7e7d699dfe46e",
+        "size": 16086520
       },
       "packs": [
         {
@@ -1610,25 +1610,25 @@
           "base": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
           "entries": 46,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.1",
-          "size": 805544,
+          "release": "ko-0.2.3",
+          "size": 805643,
           "enc": {
             "keyId": 1,
-            "sha256": "909e1cea8d29d0a3fbd271ffaf337ee68925e349e02190924649692175ccd271",
-            "size": 805578
+            "sha256": "4a949d2e55972494404c5b3fd0231dd2eaff8d86740b625e906bdf75d6d2aedb",
+            "size": 805677
           }
         },
         {
           "kind": "hotfix",
-          "base": "97a220d1402232b113ff435d9cb84362527d19201bec69fd4946aaf33eb9b09d",
-          "entries": 1,
-          "asset": "script.script.from-0.1.8.pack.zip.wsre",
-          "release": "ko-0.2.1",
-          "size": 167911,
+          "base": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
+          "entries": 3,
+          "asset": "script.script.from-0.2.2.pack.zip.wsre",
+          "release": "ko-0.2.3",
+          "size": 189804,
           "enc": {
             "keyId": 1,
-            "sha256": "f705be84ec1e7efe3222a13afda3ac51ff6cb97e0ab4cfd5a977505e6f9f122b",
-            "size": 167945
+            "sha256": "09cabf3c00c3bbe7ccad913dee3d7410d00c90301d4fa8fafe70cbc3d36fec5d",
+            "size": 189838
           }
         }
       ]
@@ -1664,6 +1664,11 @@
       "sha256": "84b27237259e78a2b57c26155b46033f386d5560cb6ac93f90871d286caaa287",
       "size": 80319,
       "path": "data/prefab/game/bathroom.unity3d"
+    },
+    {
+      "sha256": "34a2c75934f9f21b7d93ac248ba918facad4f65a6593e58b4621c7f3988faa54",
+      "size": 29892,
+      "path": "data/prefab/game/dorm_warehouse.unity3d"
     },
     {
       "sha256": "ec69445a401d816096bcf1a8293c9c128e18c191dbb52fb21a1e40d699d7b5c1",
@@ -1729,9 +1734,62 @@
       "sha256": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
       "size": 130224287,
       "path": "config.conf"
+    },
+    {
+      "sha256": "3e3b4267d2ca2fd14a9bd384bc3716e56ea8e6e9f43ae21bbeb0654fd8bf01fd",
+      "size": 130224381,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "3c13307c50019031387f3a88a63f2729c46b6b1fa72f794f061f7fb9b7fd59e6",
+      "size": 1199671,
+      "path": "data/ui/fight/skill.unity3d"
+    },
+    {
+      "sha256": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
+      "size": 16086127,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.3",
+      "date": "2026-10-17",
+      "items": [
+        {
+          "src": "t",
+          "text": "스킬 이름 26건 수정"
+        },
+        {
+          "src": "t",
+          "text": "스킬 효과 설명 29건 수정"
+        },
+        {
+          "src": "t",
+          "text": "적 함종 표기 4건 수정"
+        },
+        {
+          "src": "t",
+          "text": "함선 도감 설명 3건 수정"
+        },
+        {
+          "src": "t",
+          "text": "이벤트 문구 9건 수정"
+        },
+        {
+          "src": "t",
+          "text": "안내·메뉴 문구 12건 수정"
+        },
+        {
+          "src": "g",
+          "text": "스킬 컷인 52건 수정"
+        },
+        {
+          "src": "g",
+          "text": "텍스트 배치 1건 수정"
+        }
+      ]
+    },
     {
       "version": "0.2.1",
       "date": "2026-10-17",
