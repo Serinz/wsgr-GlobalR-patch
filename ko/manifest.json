@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.1.8",
-  "built": "2026-10-16T18:05:22+09:00",
-  "release": "ko-0.1.8",
+  "version": "0.2.1",
+  "built": "2026-10-17T12:58:29+09:00",
+  "release": "ko-0.2.1",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
-      "size": 130224287,
+      "patchedSha256": "3e3b4267d2ca2fd14a9bd384bc3716e56ea8e6e9f43ae21bbeb0654fd8bf01fd",
+      "size": 130224381,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.1.8",
+      "release": "ko-0.2.1",
       "enc": {
         "keyId": 1,
-        "sha256": "8af03bf4dc8bfaa984d29d8a37ee34f92579cdcce1cac59fba488d0baeb2324c",
-        "size": 130226305
+        "sha256": "54f258ac252162727d9dd044456c9604ce68fd151004708da1ae758f6f7427ad",
+        "size": 130226399
       },
       "packs": [
         {
@@ -35,25 +35,25 @@
           "base": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.1.8",
-          "size": 9267024,
+          "release": "ko-0.2.1",
+          "size": 9267132,
           "enc": {
             "keyId": 1,
-            "sha256": "24c568eb6defacd048dd5b9ba46c44f04089020c5250f8a334c0b3e014578b99",
-            "size": 9267186
+            "sha256": "7f7d66f907ec7ad2089aeea9bdb1d95c628f9617107fda6f986bb6b77c21e78c",
+            "size": 9267294
           }
         },
         {
           "kind": "hotfix",
-          "base": "da68ac31b67a9b8fc7de9b9044dafe581e59e9c132bb30cd9e63202b72962329",
-          "entries": 54,
-          "asset": "config.conf.from-0.1.7.pack.zip.wsre",
-          "release": "ko-0.1.8",
-          "size": 7042359,
+          "base": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
+          "entries": 4,
+          "asset": "config.conf.from-0.1.8.pack.zip.wsre",
+          "release": "ko-0.2.1",
+          "size": 4703751,
           "enc": {
             "keyId": 1,
-            "sha256": "8ddaa70614b4249352c8b2f1bee6e50cc22299e131ccaffe0feb5b66714e0e9c",
-            "size": 7042489
+            "sha256": "c93a4fba69947fbb36d87f3e78cd10ae03b9183d599dec047ba58ca6c05c1d26",
+            "size": 4703849
           }
         }
       ]
@@ -634,6 +634,23 @@
         "keyId": 1,
         "sha256": "72ad3e9ce766033afcc7fe91589f5637dec1aa076b8a85b443140e900834f155",
         "size": 5421002
+      }
+    },
+    {
+      "path": "data/ui/fight/skill.unity3d",
+      "type": "bundle",
+      "patchedSha256": "3c13307c50019031387f3a88a63f2729c46b6b1fa72f794f061f7fb9b7fd59e6",
+      "size": 1199671,
+      "asset": "data__ui__fight__skill.unity3d.wsre",
+      "required": false,
+      "group": "battle",
+      "baseSource": "apk",
+      "baseSha256": "1d1e00dafd56eda7aa92c5695b36cd625a0b62d189262cc5c320f3fdc6f3b20f",
+      "release": "ko-0.2.1",
+      "enc": {
+        "keyId": 1,
+        "sha256": "814199b56a48db8d718306d181a4ce9462b3d9456bbf6e30ad2f0a99ae6d96f9",
+        "size": 1199721
       }
     },
     {
@@ -1353,18 +1370,18 @@
     {
       "path": "data_cn/ui_cn/remake.unity3d",
       "type": "bundle",
-      "patchedSha256": "dd50507b2ce3c868239d81739732fc4b40bcb4e19ac76d576c13693b413d0960",
-      "size": 26038,
+      "patchedSha256": "0a93888005b20bdc5829d9ca7b17741f12f9a1653420bb23d82adbf3c473b028",
+      "size": 25394,
       "asset": "data_cn__ui_cn__remake.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "apk",
       "baseSha256": "cb8bb50d4b5ee71982338712bd3dcccd73c895f790922d76ac1da85efad00e51",
-      "release": "ko-0.1.3",
+      "release": "ko-0.2.1",
       "enc": {
         "keyId": 1,
-        "sha256": "0acbeb9d5b26aae27c516e91c6c89bf03db5af96d05ed3f4d4bd9f23c67a207d",
-        "size": 26072
+        "sha256": "8bb7c33280bcd8f1f88eb6681c1ef6fd7bdaaabeab634f5c5a3f7c7e726fcd74",
+        "size": 25428
       }
     },
     {
@@ -1574,19 +1591,47 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "97a220d1402232b113ff435d9cb84362527d19201bec69fd4946aaf33eb9b09d",
-      "size": 16086204,
+      "patchedSha256": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
+      "size": 16086127,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.1.7",
+      "release": "ko-0.2.1",
       "enc": {
         "keyId": 1,
-        "sha256": "ceac6adc6c413c5a040817e512db1e1302dfac42f712e1103be33fc5b885caac",
-        "size": 16086478
-      }
+        "sha256": "1de78238e4addf02f8911368bdc63ba04d901fd54ba0a5abbb9511132f01d719",
+        "size": 16086401
+      },
+      "packs": [
+        {
+          "kind": "full",
+          "base": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
+          "entries": 46,
+          "asset": "script.script.full.pack.zip.wsre",
+          "release": "ko-0.2.1",
+          "size": 805544,
+          "enc": {
+            "keyId": 1,
+            "sha256": "909e1cea8d29d0a3fbd271ffaf337ee68925e349e02190924649692175ccd271",
+            "size": 805578
+          }
+        },
+        {
+          "kind": "hotfix",
+          "base": "97a220d1402232b113ff435d9cb84362527d19201bec69fd4946aaf33eb9b09d",
+          "entries": 1,
+          "asset": "script.script.from-0.1.8.pack.zip.wsre",
+          "release": "ko-0.2.1",
+          "size": 167911,
+          "enc": {
+            "keyId": 1,
+            "sha256": "f705be84ec1e7efe3222a13afda3ac51ff6cb97e0ab4cfd5a977505e6f9f122b",
+            "size": 167945
+          }
+        }
+      ]
     }
   ],
   "history": [
@@ -1646,6 +1691,11 @@
       "path": "data_cn/ui_cn/living_areas.unity3d"
     },
     {
+      "sha256": "dd50507b2ce3c868239d81739732fc4b40bcb4e19ac76d576c13693b413d0960",
+      "size": 26038,
+      "path": "data_cn/ui_cn/remake.unity3d"
+    },
+    {
       "sha256": "e790bcf6758a5ee3c8f5a623c6c8a903b03a252af2ad4202e2b30308b2ecfed8",
       "size": 50155,
       "path": "data_cn/ui_cn/tactics.unity3d"
@@ -1669,6 +1719,48 @@
       "sha256": "739ab5a0d29c8d0cf53dcf5b5f1f546c5495e48e17dbc5c6ed29841fd1a895fa",
       "size": 16082563,
       "path": "script.script"
+    },
+    {
+      "sha256": "97a220d1402232b113ff435d9cb84362527d19201bec69fd4946aaf33eb9b09d",
+      "size": 16086204,
+      "path": "script.script"
+    },
+    {
+      "sha256": "2483aa26098412acd210a29b5301f0ce102e19c8f7cd19a01579ae0a8f076297",
+      "size": 130224287,
+      "path": "config.conf"
+    }
+  ],
+  "changes": [
+    {
+      "version": "0.2.1",
+      "date": "2026-10-17",
+      "items": [
+        {
+          "src": "t",
+          "text": "출격·친구·도크·강화 화면의 메뉴 탭 표기를 보기 좋게 통일"
+        },
+        {
+          "src": "t",
+          "text": "스킬이 없는 함선의 스킬 칸 문구 수정"
+        },
+        {
+          "src": "t",
+          "text": "함선 대사 오역·어색한 표현 14건 수정"
+        },
+        {
+          "src": "t",
+          "text": "대사 맞춤법 5건 수정 (바람, 해야 해)"
+        },
+        {
+          "src": "g",
+          "text": "함선 강화 화면 `추가` 글자 번짐 수정 (1건)"
+        },
+        {
+          "src": "g",
+          "text": "스킬 발동 컷인 이미지 한글화 (52장)"
+        }
+      ]
     }
   ]
 }
