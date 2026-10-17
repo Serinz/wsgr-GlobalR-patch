@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.1",
-  "built": "2026-10-17T12:58:29+09:00",
-  "release": "ko-0.2.1",
+  "version": "0.2.2",
+  "built": "2026-10-17T13:29:04+09:00",
+  "release": "ko-0.2.2",
   "target": {
     "versions": [
       {
@@ -644,12 +644,12 @@
       "asset": "data__ui__fight__skill.unity3d.wsre",
       "required": false,
       "group": "battle",
-      "baseSource": "apk",
-      "baseSha256": "1d1e00dafd56eda7aa92c5695b36cd625a0b62d189262cc5c320f3fdc6f3b20f",
-      "release": "ko-0.2.1",
+      "baseSource": "files",
+      "baseSha256": "fd7397f04516aa621f61d0febb8d5f0c8a5e59b0e2a680dd8860239ba7fc3360",
+      "release": "ko-0.2.2",
       "enc": {
         "keyId": 1,
-        "sha256": "814199b56a48db8d718306d181a4ce9462b3d9456bbf6e30ad2f0a99ae6d96f9",
+        "sha256": "2667b2cfa73a6ae79bfe7da2ea3445d2efdd062a3288e1ccc8f09616b0ab6671",
         "size": 1199721
       }
     },
