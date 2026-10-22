@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.3",
-  "built": "2026-10-17T16:59:16+09:00",
-  "release": "ko-0.2.3",
+  "version": "0.2.4",
+  "built": "2026-10-22T18:00:06+09:00",
+  "release": "ko-0.2.4",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "b40b9d2a376d3813ebac3525c950ecf7b90b2383b769b4ae5a81258d27d48dae",
-      "size": 130225171,
+      "patchedSha256": "e64985715551bd14a7240235be39cce54130a0751d249abd37b7f7f18f2f8250",
+      "size": 129907290,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.2.3",
+      "release": "ko-0.2.4",
       "enc": {
         "keyId": 1,
-        "sha256": "83af397b1a4d15942e0db10c16056a3f86a0b6b24bbb3c97d31ca1a3bb7c3a22",
-        "size": 130227189
+        "sha256": "800a6dc4315e01d93bbc8f274b345617e2e03eba5a8e3e76c2f3a3f781fd04df",
+        "size": 129909292
       },
       "packs": [
         {
@@ -35,25 +35,25 @@
           "base": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.3",
-          "size": 9267269,
+          "release": "ko-0.2.4",
+          "size": 9267486,
           "enc": {
             "keyId": 1,
-            "sha256": "ba9cd7e16e8f85af227fc80a7a127cea0db207092058627c092752d1fda93b85",
-            "size": 9267431
+            "sha256": "eb5dd3cdb6b4a5e82841a7393258423deebb71e55b06c9c800bfc3d9e8efb7ba",
+            "size": 9267648
           }
         },
         {
           "kind": "hotfix",
-          "base": "3e3b4267d2ca2fd14a9bd384bc3716e56ea8e6e9f43ae21bbeb0654fd8bf01fd",
-          "entries": 10,
-          "asset": "config.conf.from-0.2.2.pack.zip.wsre",
-          "release": "ko-0.2.3",
-          "size": 4111283,
+          "base": "b40b9d2a376d3813ebac3525c950ecf7b90b2383b769b4ae5a81258d27d48dae",
+          "entries": 3,
+          "asset": "config.conf.from-0.2.3.pack.zip.wsre",
+          "release": "ko-0.2.4",
+          "size": 441833,
           "enc": {
             "keyId": 1,
-            "sha256": "f4eea242ccaf98af3ff3c25a51afe073946e7cc80df5464ea1c77e4f60bb1eae",
-            "size": 4111365
+            "sha256": "5ee525dfb2aa1cc6b71c783a64db34caf6d2bc8eb5af513b3d769c5236d06748",
+            "size": 441867
           }
         }
       ]
@@ -639,18 +639,18 @@
     {
       "path": "data/ui/fight/skill.unity3d",
       "type": "bundle",
-      "patchedSha256": "f57a11999f09d747521fdbfd26ece30399234aa876439d536d764a2f2e856569",
-      "size": 1069603,
+      "patchedSha256": "8f125e710e717b3feb2dfa837cc478c21f3d1ca93f46d28aaeb9f848adc0465d",
+      "size": 1372668,
       "asset": "data__ui__fight__skill.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "files",
       "baseSha256": "fd7397f04516aa621f61d0febb8d5f0c8a5e59b0e2a680dd8860239ba7fc3360",
-      "release": "ko-0.2.3",
+      "release": "ko-0.2.4",
       "enc": {
         "keyId": 1,
-        "sha256": "cd253acd6daeb6e4be3a4501948655b58b642f600b4c83dbabbcdcdd1d06bd69",
-        "size": 1069653
+        "sha256": "0ea1f0375ec6dc41f94947d313b0fa1c4ae0e10201e4cdb85757a6eacd020911",
+        "size": 1372718
       }
     },
     {
@@ -1591,18 +1591,18 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
-      "size": 16086246,
+      "patchedSha256": "211737a82c069a54b00c7b88c01d5d4930b421e1f9db0df56380fd4d55cb1bef",
+      "size": 16086206,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.2.3",
+      "release": "ko-0.2.4",
       "enc": {
         "keyId": 1,
-        "sha256": "e33fd6b4ad742f451e68676be16bed003add67d84cbc4d8617c7e7d699dfe46e",
-        "size": 16086520
+        "sha256": "13e8eeb4af8f10167001213d9d15ab554486a3789c7b4249406a17731a81f3f5",
+        "size": 16086480
       },
       "packs": [
         {
@@ -1610,25 +1610,25 @@
           "base": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
           "entries": 46,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.3",
-          "size": 805643,
+          "release": "ko-0.2.4",
+          "size": 805612,
           "enc": {
             "keyId": 1,
-            "sha256": "4a949d2e55972494404c5b3fd0231dd2eaff8d86740b625e906bdf75d6d2aedb",
-            "size": 805677
+            "sha256": "6039c3fd7dc7aa04a758463b78285f5420f575bc84705acbc726c88e09462bf3",
+            "size": 805646
           }
         },
         {
           "kind": "hotfix",
-          "base": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
-          "entries": 3,
-          "asset": "script.script.from-0.2.2.pack.zip.wsre",
-          "release": "ko-0.2.3",
-          "size": 189804,
+          "base": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
+          "entries": 2,
+          "asset": "script.script.from-0.2.3.pack.zip.wsre",
+          "release": "ko-0.2.4",
+          "size": 174584,
           "enc": {
             "keyId": 1,
-            "sha256": "09cabf3c00c3bbe7ccad913dee3d7410d00c90301d4fa8fafe70cbc3d36fec5d",
-            "size": 189838
+            "sha256": "16db040188d697df216a2b01de71fc4897673be63b76248c27838a240e9278b5",
+            "size": 174618
           }
         }
       ]
@@ -1749,9 +1749,46 @@
       "sha256": "95309e0873085b9c54e282b5487268eb3a29b5d69cecdcd8a07d559b5f8ef3ac",
       "size": 16086127,
       "path": "script.script"
+    },
+    {
+      "sha256": "b40b9d2a376d3813ebac3525c950ecf7b90b2383b769b4ae5a81258d27d48dae",
+      "size": 130225171,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "f57a11999f09d747521fdbfd26ece30399234aa876439d536d764a2f2e856569",
+      "size": 1069603,
+      "path": "data/ui/fight/skill.unity3d"
+    },
+    {
+      "sha256": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
+      "size": 16086246,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.4",
+      "date": "2026-10-22",
+      "items": [
+        {
+          "src": "t",
+          "text": "스킬 설명 1~4단계 문구를 짧게 정리하고 0단계 효과 누락을 보완함 (1,158곳)"
+        },
+        {
+          "src": "t",
+          "text": "화면 문구에 \\n 글자가 그대로 보이던 곳을 줄바꿈으로 고침 (16곳)"
+        },
+        {
+          "src": "g",
+          "text": "스킬 컷인 글자 크기·효과 개선 52건"
+        },
+        {
+          "src": "g",
+          "text": "스킬 컷인 2건(12번·60번) 이름을 원문 표기(BIG SEVEN, 기함 킬러(0v0))로 되돌림"
+        }
+      ]
+    },
     {
       "version": "0.2.3",
       "date": "2026-10-17",
