@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.5",
-  "built": "2026-10-23T18:11:21+09:00",
-  "release": "ko-0.2.5",
+  "version": "0.2.6",
+  "built": "2026-10-23T20:10:14+09:00",
+  "release": "ko-0.2.6",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "a819174e7e3ae73f3271efec117d37925a2570b72e2c0c6ea9e02a6258d62eb0",
-      "size": 167327923,
+      "patchedSha256": "b323c2ace531c49e81774d71066690915e4e97fab397b0d6e32b9233e8ebd898",
+      "size": 167335223,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "6ae9eaaf69a3011467518f24439f5a0cd7a8bc373e6d5863b90c4dbee931d803",
-      "release": "ko-0.2.5",
+      "release": "ko-0.2.6",
       "enc": {
         "keyId": 1,
-        "sha256": "21bc7d1762bf2ee51adb070819aaea8801cd62d72f355c3d1ad29ae737279421",
-        "size": 167330501
+        "sha256": "ec0dc8eeaab8361183f5ece43ff13af24ec7e7a531253ad42d4175c0382a7de5",
+        "size": 167337801
       },
       "packs": [
         {
@@ -35,12 +35,25 @@
           "base": "6ae9eaaf69a3011467518f24439f5a0cd7a8bc373e6d5863b90c4dbee931d803",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.5",
-          "size": 9279479,
+          "release": "ko-0.2.6",
+          "size": 9271723,
           "enc": {
             "keyId": 1,
-            "sha256": "8f61cd650164b4e14e2b7c45e57d34a3eefed0d173fffd7720f6a8a22c1d711a",
-            "size": 9279641
+            "sha256": "d4b9f02f39ea4db082eb9c26e2baaba73ff415625ade82e69d7c8b5709b76e68",
+            "size": 9271885
+          }
+        },
+        {
+          "kind": "hotfix",
+          "base": "a819174e7e3ae73f3271efec117d37925a2570b72e2c0c6ea9e02a6258d62eb0",
+          "entries": 7,
+          "asset": "config.conf.from-0.2.5.pack.zip.wsre",
+          "release": "ko-0.2.6",
+          "size": 4820437,
+          "enc": {
+            "keyId": 1,
+            "sha256": "be06eaa79b2ba29c060ce621aa4b8e257f2e07c4de546c1a66e35a27043865e9",
+            "size": 4820535
           }
         }
       ]
@@ -1748,9 +1761,24 @@
       "sha256": "211737a82c069a54b00c7b88c01d5d4930b421e1f9db0df56380fd4d55cb1bef",
       "size": 16086206,
       "path": "script.script"
+    },
+    {
+      "sha256": "a819174e7e3ae73f3271efec117d37925a2570b72e2c0c6ea9e02a6258d62eb0",
+      "size": 167327923,
+      "path": "config.conf"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.6",
+      "date": "2026-10-23",
+      "items": [
+        {
+          "src": "t",
+          "text": "0.0.631.2 신규·변경 문장 번역 추가 (147곳: 스킨 대사, 이벤트 공지, 신규 장비 등)"
+        }
+      ]
+    },
     {
       "version": "0.2.5",
       "date": "2026-10-23",
