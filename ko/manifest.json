@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.4",
-  "built": "2026-10-22T18:00:06+09:00",
-  "release": "ko-0.2.4",
+  "version": "0.2.5",
+  "built": "2026-10-23T18:11:21+09:00",
+  "release": "ko-0.2.5",
   "target": {
     "versions": [
       {
-        "check": "0.0.630.1",
+        "check": "0.0.631.2",
         "apk": "5.6.0"
       }
     ]
@@ -16,44 +16,31 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "e64985715551bd14a7240235be39cce54130a0751d249abd37b7f7f18f2f8250",
-      "size": 129907290,
+      "patchedSha256": "a819174e7e3ae73f3271efec117d37925a2570b72e2c0c6ea9e02a6258d62eb0",
+      "size": 167327923,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
-      "baseSha256": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
-      "release": "ko-0.2.4",
+      "baseSha256": "6ae9eaaf69a3011467518f24439f5a0cd7a8bc373e6d5863b90c4dbee931d803",
+      "release": "ko-0.2.5",
       "enc": {
         "keyId": 1,
-        "sha256": "800a6dc4315e01d93bbc8f274b345617e2e03eba5a8e3e76c2f3a3f781fd04df",
-        "size": 129909292
+        "sha256": "21bc7d1762bf2ee51adb070819aaea8801cd62d72f355c3d1ad29ae737279421",
+        "size": 167330501
       },
       "packs": [
         {
           "kind": "full",
-          "base": "cf82d1e606c21e099e8ae3b39e9e704f54ec9dd8236fe16025694e78b6b62083",
+          "base": "6ae9eaaf69a3011467518f24439f5a0cd7a8bc373e6d5863b90c4dbee931d803",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.4",
-          "size": 9267486,
+          "release": "ko-0.2.5",
+          "size": 9279479,
           "enc": {
             "keyId": 1,
-            "sha256": "eb5dd3cdb6b4a5e82841a7393258423deebb71e55b06c9c800bfc3d9e8efb7ba",
-            "size": 9267648
-          }
-        },
-        {
-          "kind": "hotfix",
-          "base": "b40b9d2a376d3813ebac3525c950ecf7b90b2383b769b4ae5a81258d27d48dae",
-          "entries": 3,
-          "asset": "config.conf.from-0.2.3.pack.zip.wsre",
-          "release": "ko-0.2.4",
-          "size": 441833,
-          "enc": {
-            "keyId": 1,
-            "sha256": "5ee525dfb2aa1cc6b71c783a64db34caf6d2bc8eb5af513b3d769c5236d06748",
-            "size": 441867
+            "sha256": "8f61cd650164b4e14e2b7c45e57d34a3eefed0d173fffd7720f6a8a22c1d711a",
+            "size": 9279641
           }
         }
       ]
@@ -1591,44 +1578,31 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "211737a82c069a54b00c7b88c01d5d4930b421e1f9db0df56380fd4d55cb1bef",
-      "size": 16086206,
+      "patchedSha256": "d548d2f3a5b7b7f9cba373e0b7b478ab8b0dbbe8855884031ddccf5595d1be38",
+      "size": 16716711,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
-      "baseSha256": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
-      "release": "ko-0.2.4",
+      "baseSha256": "a8645df3a79a9e80e3b2a7b3b463fb3e0b343005b570be839c6706b9b76f04a8",
+      "release": "ko-0.2.5",
       "enc": {
         "keyId": 1,
-        "sha256": "13e8eeb4af8f10167001213d9d15ab554486a3789c7b4249406a17731a81f3f5",
-        "size": 16086480
+        "sha256": "9263ff9f0f4c0b17a4465f7d90c65c4cf3ac7f61ce66f389f9e7c88b43a40174",
+        "size": 16716985
       },
       "packs": [
         {
           "kind": "full",
-          "base": "737a4d1edb3921fce1665c2744b95df5c059d1076307463b7d8564cd2ac7c409",
+          "base": "a8645df3a79a9e80e3b2a7b3b463fb3e0b343005b570be839c6706b9b76f04a8",
           "entries": 46,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.4",
-          "size": 805612,
+          "release": "ko-0.2.5",
+          "size": 807157,
           "enc": {
             "keyId": 1,
-            "sha256": "6039c3fd7dc7aa04a758463b78285f5420f575bc84705acbc726c88e09462bf3",
-            "size": 805646
-          }
-        },
-        {
-          "kind": "hotfix",
-          "base": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
-          "entries": 2,
-          "asset": "script.script.from-0.2.3.pack.zip.wsre",
-          "release": "ko-0.2.4",
-          "size": 174584,
-          "enc": {
-            "keyId": 1,
-            "sha256": "16db040188d697df216a2b01de71fc4897673be63b76248c27838a240e9278b5",
-            "size": 174618
+            "sha256": "1e683a5347f23bcac047e3c26cd8f85ede5f11303df0f33ee748063a02dc8768",
+            "size": 807191
           }
         }
       ]
@@ -1764,9 +1738,29 @@
       "sha256": "c470ff97492090f4d436a927d392b447a4bdf0aedd68e2efae97cb031b47775e",
       "size": 16086246,
       "path": "script.script"
+    },
+    {
+      "sha256": "e64985715551bd14a7240235be39cce54130a0751d249abd37b7f7f18f2f8250",
+      "size": 129907290,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "211737a82c069a54b00c7b88c01d5d4930b421e1f9db0df56380fd4d55cb1bef",
+      "size": 16086206,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.5",
+      "date": "2026-10-23",
+      "items": [
+        {
+          "src": "t",
+          "text": "게임 데이터 0.0.631.2에 맞춰 다시 만듦 (번역 변경 없음)"
+        }
+      ]
+    },
     {
       "version": "0.2.4",
       "date": "2026-10-22",
