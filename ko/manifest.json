@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.10",
-  "built": "2026-11-05T01:29:16+09:00",
-  "release": "ko-0.2.10",
+  "version": "0.2.14",
+  "built": "2026-11-17T13:27:03+09:00",
+  "release": "ko-0.2.14",
   "target": {
     "versions": [
       {
-        "check": "0.0.638.2",
+        "check": "0.0.642.1",
         "apk": "5.6.0"
       }
     ]
@@ -16,31 +16,31 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "117b8a445ee98893b97a8e94863380ce00fbf9c4a8627bcdaa746e8c286bdb03",
-      "size": 177095858,
+      "patchedSha256": "0861482bd042a99d70c21db067b7214cc16f5adc29011167f584feab488a0ef7",
+      "size": 128141080,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
-      "baseSha256": "2dc27eead00a3201c261aaf6ad8e980a173f328bd08a4da461f5158d4b37941d",
-      "release": "ko-0.2.10",
+      "baseSha256": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
+      "release": "ko-0.2.14",
       "enc": {
         "keyId": 1,
-        "sha256": "486af251d5afc1ec18966121c632b49abd9264581d5799448475c36ee9ed9ce6",
-        "size": 177098580
+        "sha256": "6797a7d778afc4cecabd1f51ac136f792fe7d3a106d3221f64f12b7fe24b1d9f",
+        "size": 128143066
       },
       "packs": [
         {
           "kind": "full",
-          "base": "2dc27eead00a3201c261aaf6ad8e980a173f328bd08a4da461f5158d4b37941d",
+          "base": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.10",
-          "size": 9276493,
+          "release": "ko-0.2.14",
+          "size": 9298494,
           "enc": {
             "keyId": 1,
-            "sha256": "044f63bc02ef57cb334f67b737e9b32d257035fba54d589da7482d181cb19327",
-            "size": 9276655
+            "sha256": "f7437a92cfce77d4a18e76d660729595de8234a3e89a6fcf07f1bc3a6d83e001",
+            "size": 9298656
           }
         }
       ]
@@ -1323,18 +1323,18 @@
     {
       "path": "data_cn/ui_cn/main.unity3d",
       "type": "bundle",
-      "patchedSha256": "44ae6e53a09092ced2ccb00740d9f87b4f6a44de13a77204888dc687ea0f8ae5",
-      "size": 5391900,
+      "patchedSha256": "3525e2b0bb81f16dd26256034fe3d3864821dbd8396d5ff05cb5d388acd5cbac",
+      "size": 5393883,
       "asset": "data_cn__ui_cn__main.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "files",
-      "baseSha256": "cd26c7b792d167fde28d9da218040597184198a6b4cb490bcc83db82a9a5ebaf",
-      "release": "ko-0.1.3",
+      "baseSha256": "00fb4c0f35381e8c0c91eb44796774eed168f3184e49f630c194c3de4e42f09b",
+      "release": "ko-0.2.14",
       "enc": {
         "keyId": 1,
-        "sha256": "053b84598c90651ea7abb3a364e1773407175a2d8c2ea3ae3ea87567118119bb",
-        "size": 5392014
+        "sha256": "bf1f93a69d4d4beb8b4bf76996a69927faa62fa5d7e32a5830a1ecf9fd919ec9",
+        "size": 5393997
       }
     },
     {
@@ -1578,31 +1578,31 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "7e5c738a1f81ad2b41f0ac055540fc2dc7568343aa66c78842de48908244d957",
-      "size": 17307451,
+      "patchedSha256": "3391ad13259d91867622b54016f57efe2bac10bd25a78f73da4e69f3b63f7838",
+      "size": 17303872,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
-      "baseSha256": "ecb2111e86fb6591947b7a1828c4a55f467bc2d0140b63933d02b2588e22990a",
-      "release": "ko-0.2.10",
+      "baseSha256": "94ae6f2e1ac9097d5d104b93a77daa1cfb1f5ce9d8c1c920c1db5945162f3a31",
+      "release": "ko-0.2.14",
       "enc": {
         "keyId": 1,
-        "sha256": "eadc9a4e6e3d56715bc95d8d4a42a0e223a3753e1d8544ddc88a1bddeaa87ba3",
-        "size": 17307741
+        "sha256": "95659d419167ca43c58a66ae63d793aa1faf645ff1a6a94aa3f0ac79be47b5b0",
+        "size": 17304162
       },
       "packs": [
         {
           "kind": "full",
-          "base": "ecb2111e86fb6591947b7a1828c4a55f467bc2d0140b63933d02b2588e22990a",
+          "base": "94ae6f2e1ac9097d5d104b93a77daa1cfb1f5ce9d8c1c920c1db5945162f3a31",
           "entries": 46,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.10",
-          "size": 807306,
+          "release": "ko-0.2.14",
+          "size": 804845,
           "enc": {
             "keyId": 1,
-            "sha256": "4cbae7e6dccf837ddbebf6c3a577897d0c1fa13ff6d92d1bb84a5e0a2726d22c",
-            "size": 807340
+            "sha256": "6199f2c55707976622e321f57767bbf03444d8bf39397302b74695455de3473d",
+            "size": 804879
           }
         }
       ]
@@ -1668,6 +1668,11 @@
       "sha256": "3f1e76df1942c6d0a2ee52db4cb0de3a434295fe1440c6fd1ea34bb3945a5ac5",
       "size": 234371,
       "path": "data_cn/ui_cn/living_areas.unity3d"
+    },
+    {
+      "sha256": "44ae6e53a09092ced2ccb00740d9f87b4f6a44de13a77204888dc687ea0f8ae5",
+      "size": 5391900,
+      "path": "data_cn/ui_cn/main.unity3d"
     },
     {
       "sha256": "dd50507b2ce3c868239d81739732fc4b40bcb4e19ac76d576c13693b413d0960",
@@ -1763,9 +1768,45 @@
       "sha256": "d548d2f3a5b7b7f9cba373e0b7b478ab8b0dbbe8855884031ddccf5595d1be38",
       "size": 16716711,
       "path": "script.script"
+    },
+    {
+      "sha256": "117b8a445ee98893b97a8e94863380ce00fbf9c4a8627bcdaa746e8c286bdb03",
+      "size": 177095858,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "7e5c738a1f81ad2b41f0ac055540fc2dc7568343aa66c78842de48908244d957",
+      "size": 17307451,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.14",
+      "date": "2026-11-17",
+      "items": [
+        {
+          "src": "t",
+          "text": "게임 0.0.642.1 대응: 건조 육성 이벤트 공지, 신규 함선 4척(인컴퍼러블(디젤 엔진안)·카럴 도르만·로어노크·U-1308) 이름·대사·도감 번역 추가"
+        },
+        {
+          "src": "t",
+          "text": "업데이트로 원문이 바뀐 함선 도감 설명(함선 번호 추가 등)·스킬 설명 번역 갱신"
+        },
+        {
+          "src": "t",
+          "text": "함선 도감 설명 맨 앞의 원어 함선 이름 표기를 바로잡고, 도감·공지 속 함선 이름을 기존 표기에 맞춤"
+        },
+        {
+          "src": "g",
+          "text": "메인 화면 이벤트 배너 묶음을 새 판 기준으로 다시 만듦(배너 50장 한글 유지)"
+        },
+        {
+          "src": "g",
+          "text": "건조 육성 이벤트 배너를 새 그림으로 바꾸고 글자 오타(건초 → 건조)를 고침"
+        }
+      ]
+    },
     {
       "version": "0.2.10",
       "date": "2026-11-05",
