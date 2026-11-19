@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.14",
-  "built": "2026-11-17T13:27:03+09:00",
-  "release": "ko-0.2.14",
+  "version": "0.2.17",
+  "built": "2026-11-19T12:57:05+09:00",
+  "release": "ko-0.2.17",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "0861482bd042a99d70c21db067b7214cc16f5adc29011167f584feab488a0ef7",
-      "size": 128141080,
+      "patchedSha256": "b5ef795245065711376ee20b5daa83f6ca1bc1a9d1bf64f929d69ee91af6420e",
+      "size": 128141189,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
-      "release": "ko-0.2.14",
+      "release": "ko-0.2.17",
       "enc": {
         "keyId": 1,
-        "sha256": "6797a7d778afc4cecabd1f51ac136f792fe7d3a106d3221f64f12b7fe24b1d9f",
-        "size": 128143066
+        "sha256": "e5ed711ad3e8d9348e468a0a24a3de2417c1916adc631595a7bafbc291132921",
+        "size": 128143175
       },
       "packs": [
         {
@@ -35,12 +35,12 @@
           "base": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.14",
-          "size": 9298494,
+          "release": "ko-0.2.17",
+          "size": 9298502,
           "enc": {
             "keyId": 1,
-            "sha256": "f7437a92cfce77d4a18e76d660729595de8234a3e89a6fcf07f1bc3a6d83e001",
-            "size": 9298656
+            "sha256": "6767e9eb46b6c2d62c5320d0ace597c4887044f7f02a536a2bac0634e9913373",
+            "size": 9298664
           }
         }
       ]
@@ -1778,9 +1778,32 @@
       "sha256": "7e5c738a1f81ad2b41f0ac055540fc2dc7568343aa66c78842de48908244d957",
       "size": 17307451,
       "path": "script.script"
+    },
+    {
+      "sha256": "0861482bd042a99d70c21db067b7214cc16f5adc29011167f584feab488a0ef7",
+      "size": 128141080,
+      "path": "config.conf"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.17",
+      "date": "2026-11-19",
+      "items": [
+        {
+          "src": "t",
+          "text": "같은 함선이 화면마다 다르게 나오던 이름을 확정 표기로 통일(곤고·애머시스트 등)하고, 건조 목록·검열판에서 오제우·레오파르트가 신요·다쓰타로 나오던 문제를 고침"
+        },
+        {
+          "src": "t",
+          "text": "함번으로 된 함선 이름(U-47·U-1206 등)을 게임 원문 꼴인 하이픈 표기로 통일함(이름·대사·도감·스킬 설명)"
+        },
+        {
+          "src": "t",
+          "text": "이201(伊-201) 검열판 이름이 한자로 나오던 문제를 고침"
+        }
+      ]
+    },
     {
       "version": "0.2.14",
       "date": "2026-11-17",
