@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.17",
-  "built": "2026-11-19T12:57:05+09:00",
-  "release": "ko-0.2.17",
+  "version": "0.2.18",
+  "built": "2026-11-19T14:45:09+09:00",
+  "release": "ko-0.2.18",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "b5ef795245065711376ee20b5daa83f6ca1bc1a9d1bf64f929d69ee91af6420e",
-      "size": 128141189,
+      "patchedSha256": "7dd5ae05b8d7277a23b5be68bafdb8d731858946e75e8bde422959ff369bb452",
+      "size": 128141102,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
-      "release": "ko-0.2.17",
+      "release": "ko-0.2.18",
       "enc": {
         "keyId": 1,
-        "sha256": "e5ed711ad3e8d9348e468a0a24a3de2417c1916adc631595a7bafbc291132921",
-        "size": 128143175
+        "sha256": "ea923eda9c0be569a69479a5d2dc7add50cb0d90a68348ea61c7b269e8e21bf3",
+        "size": 128143088
       },
       "packs": [
         {
@@ -35,12 +35,12 @@
           "base": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
           "entries": 168,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.17",
-          "size": 9298502,
+          "release": "ko-0.2.18",
+          "size": 9298409,
           "enc": {
             "keyId": 1,
-            "sha256": "6767e9eb46b6c2d62c5320d0ace597c4887044f7f02a536a2bac0634e9913373",
-            "size": 9298664
+            "sha256": "83538d5602e84c52f22dd0717095155ea4e2fbef154cd1b8d9f255b31a721933",
+            "size": 9298571
           }
         }
       ]
@@ -1783,9 +1783,24 @@
       "sha256": "0861482bd042a99d70c21db067b7214cc16f5adc29011167f584feab488a0ef7",
       "size": 128141080,
       "path": "config.conf"
+    },
+    {
+      "sha256": "b5ef795245065711376ee20b5daa83f6ca1bc1a9d1bf64f929d69ee91af6420e",
+      "size": 128141189,
+      "path": "config.conf"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.18",
+      "date": "2026-11-19",
+      "items": [
+        {
+          "src": "t",
+          "text": "일부 대사에서 낱말이 깨져 나오던 문제(생사령관시죠 → 생각하시죠, 착지휘관진 → 착각하진, 각하은 → 각하는 등)를 고침"
+        }
+      ]
+    },
     {
       "version": "0.2.17",
       "date": "2026-11-19",
