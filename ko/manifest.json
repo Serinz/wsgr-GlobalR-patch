@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.18",
-  "built": "2026-11-19T14:45:09+09:00",
-  "release": "ko-0.2.18",
+  "version": "0.2.19",
+  "built": "2026-11-20T18:08:16+09:00",
+  "release": "ko-0.2.19",
   "target": {
     "versions": [
       {
-        "check": "0.0.642.1",
+        "check": "0.0.644.1",
         "apk": "5.6.0"
       }
     ]
@@ -16,31 +16,31 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "7dd5ae05b8d7277a23b5be68bafdb8d731858946e75e8bde422959ff369bb452",
-      "size": 128141102,
+      "patchedSha256": "649bd255f9737c723a62aedac3a3a4d9ebc848e89a677c51652af92027a77179",
+      "size": 123562400,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
-      "baseSha256": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
-      "release": "ko-0.2.18",
+      "baseSha256": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
+      "release": "ko-0.2.19",
       "enc": {
         "keyId": 1,
-        "sha256": "ea923eda9c0be569a69479a5d2dc7add50cb0d90a68348ea61c7b269e8e21bf3",
-        "size": 128143088
+        "sha256": "f96019298953677000ff1188d0f8f7b886991b0e918a2a3595c5c5504ab43000",
+        "size": 123564306
       },
       "packs": [
         {
           "kind": "full",
-          "base": "e31791f62426dbc8fcc2b9bd08934ef3192028d511af2855e5cc04fb60976e95",
-          "entries": 168,
+          "base": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
+          "entries": 165,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.18",
-          "size": 9298409,
+          "release": "ko-0.2.19",
+          "size": 9249307,
           "enc": {
             "keyId": 1,
-            "sha256": "83538d5602e84c52f22dd0717095155ea4e2fbef154cd1b8d9f255b31a721933",
-            "size": 9298571
+            "sha256": "61249849181b50b50091c2c1d1648b4478970abab3862cd5ba120602b82f5bbe",
+            "size": 9249469
           }
         }
       ]
@@ -116,18 +116,18 @@
     {
       "path": "data/prefab/game/dorm_warehouse.unity3d",
       "type": "bundle",
-      "patchedSha256": "55a91d00b285fbc8ca9d87ef039f14b88703426f6ff0a8f319b1a7f7a077c8a9",
-      "size": 29892,
+      "patchedSha256": "e4817b0cefc89259b6708df2e08878a5373bebde0e7dd3dbb1198fc0fd9b6fa7",
+      "size": 29888,
       "asset": "data__prefab__game__dorm_warehouse.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "files",
-      "baseSha256": "fd3fd34861f200092ace519cef3c30a24faaecd2f6e924c10d3b0e6b610433d2",
-      "release": "ko-0.2.3",
+      "baseSha256": "aaaa506dade7f819d699d6052bc053449525217915039a9ce44b41ca7349b3fa",
+      "release": "ko-0.2.19",
       "enc": {
         "keyId": 1,
-        "sha256": "a57b722437cb63e17db73bdcedcaa3248703f700b581143d71df14145bc90fe5",
-        "size": 29926
+        "sha256": "ac001170c807bac355b23335ba4c8251bd9f42a28f9a92a021078d4fa851627d",
+        "size": 29922
       }
     },
     {
@@ -1578,31 +1578,31 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "3391ad13259d91867622b54016f57efe2bac10bd25a78f73da4e69f3b63f7838",
-      "size": 17303872,
+      "patchedSha256": "221c56eeba68d01d6868225c6ac6f7fc8a14522b149f9c41bff7f24cbbfa221a",
+      "size": 17908648,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
-      "baseSha256": "94ae6f2e1ac9097d5d104b93a77daa1cfb1f5ce9d8c1c920c1db5945162f3a31",
-      "release": "ko-0.2.14",
+      "baseSha256": "e28c82ac371c110397d3b2a11c72b568fef1e8507fc8c428eb50ddf39c8fcd2a",
+      "release": "ko-0.2.19",
       "enc": {
         "keyId": 1,
-        "sha256": "95659d419167ca43c58a66ae63d793aa1faf645ff1a6a94aa3f0ac79be47b5b0",
-        "size": 17304162
+        "sha256": "2ab39f79b9a0abc30a0a3a0221fee6565b6817a2f88599a445a8085890881f6f",
+        "size": 17908954
       },
       "packs": [
         {
           "kind": "full",
-          "base": "94ae6f2e1ac9097d5d104b93a77daa1cfb1f5ce9d8c1c920c1db5945162f3a31",
+          "base": "e28c82ac371c110397d3b2a11c72b568fef1e8507fc8c428eb50ddf39c8fcd2a",
           "entries": 46,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.14",
-          "size": 804845,
+          "release": "ko-0.2.19",
+          "size": 805729,
           "enc": {
             "keyId": 1,
-            "sha256": "6199f2c55707976622e321f57767bbf03444d8bf39397302b74695455de3473d",
-            "size": 804879
+            "sha256": "c21658befeaf868ae527e384228813f3cb337221ddc2843369279eda9c1631bb",
+            "size": 805763
           }
         }
       ]
@@ -1788,9 +1788,42 @@
       "sha256": "b5ef795245065711376ee20b5daa83f6ca1bc1a9d1bf64f929d69ee91af6420e",
       "size": 128141189,
       "path": "config.conf"
+    },
+    {
+      "sha256": "7dd5ae05b8d7277a23b5be68bafdb8d731858946e75e8bde422959ff369bb452",
+      "size": 128141102,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "55a91d00b285fbc8ca9d87ef039f14b88703426f6ff0a8f319b1a7f7a077c8a9",
+      "size": 29892,
+      "path": "data/prefab/game/dorm_warehouse.unity3d"
+    },
+    {
+      "sha256": "3391ad13259d91867622b54016f57efe2bac10bd25a78f73da4e69f3b63f7838",
+      "size": 17303872,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.19",
+      "date": "2026-11-20",
+      "items": [
+        {
+          "src": "t",
+          "text": "게임 0.0.644.1 대응: 바뀐 화면 문구(6주년 자원 교환 안내, 알 수 없는 오류 안내)와 새 화면 문구(의상 상점 탭·보유 의상 숨기기, 드롭 구분 표시 등)·새 가구 이름 번역 반영"
+        },
+        {
+          "src": "t",
+          "text": "메릴랜드 도감 설명의 오타(항공모항 → 항공모함)를 고침"
+        },
+        {
+          "src": "g",
+          "text": "게임 0.0.644.1 대응: 가구 창고 화면 묶음을 새 판 기준으로 다시 만듦(제목·안내문 겹침 조정 유지)"
+        }
+      ]
+    },
     {
       "version": "0.2.18",
       "date": "2026-11-19",
