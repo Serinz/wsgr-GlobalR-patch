@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.21",
-  "built": "2026-11-27T23:29:49+09:00",
-  "release": "ko-0.2.21",
+  "version": "0.2.24",
+  "built": "2026-11-28T02:13:40+09:00",
+  "release": "ko-0.2.24",
   "target": {
     "versions": [
       {
-        "check": "0.0.644.1",
-        "apk": "5.6.0"
+        "check": "0.0.650.2",
+        "apk": "5.6.1"
       }
     ]
   },
@@ -16,31 +16,31 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "d33b67df51c66fad2055a9135bdff8fff050d2aa18ddfb9898e9c357a453c16b",
-      "size": 123562391,
+      "patchedSha256": "c538b56bdb40c3eeef448e4213304d59f68e5ee2ab38577371b569e0b52975c5",
+      "size": 115140120,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
-      "baseSha256": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
-      "release": "ko-0.2.21",
+      "baseSha256": "939af8f628c8adefafe67a6165125cf2fbe4335b205979c430a94e09e4176199",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "c370125c9e02107c7dff7982015e26606648bfc6f82b098d26b63658b70078fa",
-        "size": 123564297
+        "sha256": "ae381fc07a2f79a5e2492b1bd2b537e92307579fbde3177ed7e20e50d2d31eb6",
+        "size": 115141898
       },
       "packs": [
         {
           "kind": "full",
-          "base": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
-          "entries": 165,
+          "base": "939af8f628c8adefafe67a6165125cf2fbe4335b205979c430a94e09e4176199",
+          "entries": 163,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.21",
-          "size": 9249300,
+          "release": "ko-0.2.24",
+          "size": 8984218,
           "enc": {
             "keyId": 1,
-            "sha256": "74085f47fa29ad6db5d2073046232f05fa34523899b053e2473c8b83a55e68c4",
-            "size": 9249462
+            "sha256": "824156e074141c3a04e84f849961cdd3c240a2c412944581608d199a613250aa",
+            "size": 8984380
           }
         }
       ]
@@ -48,103 +48,103 @@
     {
       "path": "data/prefab/game/abyss_quest.unity3d",
       "type": "bundle",
-      "patchedSha256": "dedffd014c7a70f3347b97064ac9de775890b00482d9a54144552420917d019b",
-      "size": 17189,
+      "patchedSha256": "bdb6415d7abebb54c8d70abda31501f654aedcb9cba4da8d8e438a7ec66e0336",
+      "size": 17161,
       "asset": "data__prefab__game__abyss_quest.unity3d.wsre",
       "required": false,
       "group": "event",
-      "baseSource": "apk",
-      "baseSha256": "5f9f0595af563264150f810033938d6bdf98626fb154787f7b7a01f27c2eabe1",
-      "release": "ko-0.1.3",
+      "baseSource": "files",
+      "baseSha256": "ae897076f1a9afc1a5f9ab1a23683591e568f56e06c5cfcd422c0da433042465",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "2cab814e27f6c9ea92a8ed1e4f7bc538de914a22514982d2ac3a32d17494bf51",
-        "size": 17223
+        "sha256": "4e7385c7c1606d9bc72b28670f9a24a39c4578ac8fc0913a7c09e2cea49453d8",
+        "size": 17195
       }
     },
     {
       "path": "data/prefab/game/answer_award.unity3d",
       "type": "bundle",
-      "patchedSha256": "6da430f1b5a71d76addb2890fbe8638b8e3726f202661528f59823f7141b77a6",
-      "size": 17452,
+      "patchedSha256": "04bda33e33ae263a46a37d0b2c81cd7855eaa7b99eea553759c738c5701197fa",
+      "size": 17418,
       "asset": "data__prefab__game__answer_award.unity3d.wsre",
       "required": false,
       "group": "event",
-      "baseSource": "apk",
-      "baseSha256": "998e7192580f6f0927b97d0616297c86ebc334fcaabcaf707620f212006549ae",
-      "release": "ko-0.1.3",
+      "baseSource": "files",
+      "baseSha256": "97e67a6a52514fbe9402686cfcd950c02a0c3f0cf49458168ebf61dda0dec295",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "529d9ddc2014390ecd9f628c99e0254a43d07487c3e052d15c6b59a361160330",
-        "size": 17486
+        "sha256": "b5ed98afcbc07dc33d5fecb261a372548ea6cca27e0b5d0f348baf263a5bf49f",
+        "size": 17452
       }
     },
     {
       "path": "data/prefab/game/bathroom.unity3d",
       "type": "bundle",
-      "patchedSha256": "f10a39e37dcfb2b1ace76a84988b283606fa41af181306fd8dbcbe03598a1dbd",
-      "size": 80333,
+      "patchedSha256": "270bd389e8b34c993aadc1eb20b8cb3c30958409119e17198fa61d60908a9b61",
+      "size": 76705,
       "asset": "data__prefab__game__bathroom.unity3d.wsre",
       "required": false,
       "group": "menu",
-      "baseSource": "apk",
-      "baseSha256": "9d487512e49e782cb63dbe59f0e132329b3c1187d44c628fed821ad6ffb124eb",
-      "release": "ko-0.1.7",
+      "baseSource": "files",
+      "baseSha256": "1b856643696b0fe5c6ad3c5176c438f418adb2fe0ee61f1e529e6cdaa6388ad0",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "4010ba0722dbfb26ca169490b0e817aa3f36dd37c6f1f8cbde9f9038ffc857b1",
-        "size": 80367
+        "sha256": "38878623e58230effc65ac0987068fb287d7834f6aa5167acab68a79acbe0b57",
+        "size": 76739
       }
     },
     {
       "path": "data/prefab/game/campaign.unity3d",
       "type": "bundle",
-      "patchedSha256": "5c91a0424a6d9409c155eb845964319b3eece39dd7f8a2a90e2e1a25f654ff56",
-      "size": 134197,
+      "patchedSha256": "19a265f21332d5dd2f379c68e871fea4a886322a9ac5acda7e4f5060980532d3",
+      "size": 134212,
       "asset": "data__prefab__game__campaign.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "a4d11e8595e1f1da39c53189b6f09d7ee37a0cc294233a59bcb4058dd3cf249e",
-      "release": "ko-0.1.3",
+      "baseSha256": "092d8c76565bc9e91f8b7ec493596e918d606982efc8d56fda14166e02833019",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "410626fdeb6735c31f4758466df94e8a7a5731d63e6f6b801be44c2a695848a5",
-        "size": 134231
+        "sha256": "2dd380bb81d18877d57bad02bebdb6c953446d3de1f280851a461e8cae67b276",
+        "size": 134246
       }
     },
     {
       "path": "data/prefab/game/dorm_warehouse.unity3d",
       "type": "bundle",
-      "patchedSha256": "e4817b0cefc89259b6708df2e08878a5373bebde0e7dd3dbb1198fc0fd9b6fa7",
-      "size": 29888,
+      "patchedSha256": "649cadb1ee91eb08fbdd84793fd1a4e9794a083815b9192fb6bb136c241d44a1",
+      "size": 31145,
       "asset": "data__prefab__game__dorm_warehouse.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "files",
-      "baseSha256": "aaaa506dade7f819d699d6052bc053449525217915039a9ce44b41ca7349b3fa",
-      "release": "ko-0.2.19",
+      "baseSha256": "ca6c3c36fb3bdacf2be671159418b385c2b6181b2e541b43c930412f670279a0",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "ac001170c807bac355b23335ba4c8251bd9f42a28f9a92a021078d4fa851627d",
-        "size": 29922
+        "sha256": "b3205c19b57f3a13315b05baedded24e4670149d8c7cd07b4bc9e378ec014fb0",
+        "size": 31179
       }
     },
     {
       "path": "data/prefab/game/enemy_ship_detail.unity3d",
       "type": "bundle",
-      "patchedSha256": "c582146cb4de61ce6cd25d678d81373fafc555c42f75e4b8597ddad819e32d8a",
-      "size": 37826,
+      "patchedSha256": "40d6dd81a9c561e991da895f40b0c5253559e8a4c18bc03e0cc3ef08a41636e8",
+      "size": 38554,
       "asset": "data__prefab__game__enemy_ship_detail.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "b1ed4f0105bd63ac5f71fc0bdab371bca6490475a347e615b9c47ea8b086f771",
-      "release": "ko-0.1.3",
+      "baseSha256": "b9c1d5c285d61dd93466a2583990ca4ab33df736ae1d8cc3ac208086749b7ca1",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "799d1c652e62d9daee0eaa7946121482b0869bc189d0c30d1ea9cc0a41a0070a",
-        "size": 37860
+        "sha256": "fceb170dde5909d3bb8b1b1a533d9ac03f8a5c0b44a4bf7bdfde688f421761fa",
+        "size": 38588
       }
     },
     {
@@ -167,69 +167,69 @@
     {
       "path": "data/prefab/game/fifth_awardbox.unity3d",
       "type": "bundle",
-      "patchedSha256": "dfd35fa78acc91d196449fec7bf3cb8c66bf6bbf6a82877ebce3a75de6685cc1",
-      "size": 24759,
+      "patchedSha256": "92d57519c2beccf0313256ee6aa2ab4bb949387fe9884deb05f8a5969c868917",
+      "size": 24739,
       "asset": "data__prefab__game__fifth_awardbox.unity3d.wsre",
       "required": false,
       "group": "event",
-      "baseSource": "apk",
-      "baseSha256": "644dd85550e0884551f4cef172c005a415cb2a812ee2316f61c631882f4d6094",
-      "release": "ko-0.1.3",
+      "baseSource": "files",
+      "baseSha256": "f7ba640025a8a460f6e95337f2e0e450c0ed8d4800dc67bb15cfd359fa9a000d",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "a11336b96c00ea091cc472b2d574f7916699e90e5736b5500e6be3e6b36c279d",
-        "size": 24793
+        "sha256": "6334092f5e201e4b25c04dccee341c0603c650399e105d53d85a1f352daa176d",
+        "size": 24773
       }
     },
     {
       "path": "data/prefab/game/fight_info.unity3d",
       "type": "bundle",
-      "patchedSha256": "758c9e161ef040cd9c6b0f959126c07f199d4edb44449fbea76205c99b157c39",
-      "size": 187355,
+      "patchedSha256": "f2bae9eaa435fa4c3a211c632e247edee9f3e3b62ec163c0d934373fa68e7fd6",
+      "size": 187371,
       "asset": "data__prefab__game__fight_info.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "4ac392a78eba2729b9117c43ecb0eef5a9e425a3a398b791d2da5b902bef32e5",
-      "release": "ko-0.1.3",
+      "baseSha256": "bf84c147d3acec0877543f3ce402fa160642d713fb049f6239cdfda58157094f",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "26571bfdb0b439007da4e1a73950087e7be9d1f2d2e2e1c8cda53110cbadbd33",
-        "size": 187389
+        "sha256": "d6a6d89e778ddd910dc68dbcb44bfd046b8cc3610959204eee63b2f09b620b18",
+        "size": 187405
       }
     },
     {
       "path": "data/prefab/game/fight_prepare_ship_item.unity3d",
       "type": "bundle",
-      "patchedSha256": "97184507978b74e19e176781228f4a68a55c440661a626c543abe7286f2f2691",
-      "size": 27944,
+      "patchedSha256": "1e2679abe89ff58bf7fb00aaca0627b2698244b6a44933ab751aaaa4d3e75c6b",
+      "size": 28356,
       "asset": "data__prefab__game__fight_prepare_ship_item.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "85c287694e36c7330394a22110cd70b68a1e6455b7e633adccb56813f83d9fd1",
-      "release": "ko-0.1.3",
+      "baseSha256": "c615c9935e0278ab7fbade3eaf2a235273b53d4036ecdf90f5354cfd5c61044a",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "1a80abfe4135bb3ca554a61bccb105c643dc48dfb93b6feb45377831331b9f7d",
-        "size": 27978
+        "sha256": "db3235f42a8a802c6658fcf8a4327625322e68b4eb817ba9ca9a1bceca4413d8",
+        "size": 28390
       }
     },
     {
       "path": "data/prefab/game/mall_shop.unity3d",
       "type": "bundle",
-      "patchedSha256": "018cb1ed06e896442929470354550b5741493f0b3be952eb5511b38daa9b59db",
-      "size": 43806,
+      "patchedSha256": "cc33004123b476854d2ca45f5f00583018a9fe0691c997a19190fac3891f3d46",
+      "size": 50742,
       "asset": "data__prefab__game__mall_shop.unity3d.wsre",
       "required": false,
       "group": "menu",
-      "baseSource": "apk",
-      "baseSha256": "60fe2972027c191e9d291a3a257af0185cc293eaef2cc6da1baff32645fc059d",
-      "release": "ko-0.1.3",
+      "baseSource": "files",
+      "baseSha256": "275b0afcf81804f5cd0de3b5c31ab22ee200fd4440a2ce427fb74e10add929f8",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "602a3fa2c2194639c82e9f16c92bcb8daaaea7f5c7ab8c1a6fa82ca7ea53b2a3",
-        "size": 43840
+        "sha256": "c472c9e6a71f483e9ec7c07062b59c96808f408045f61757c7caba8c6dd66584",
+        "size": 50776
       }
     },
     {
@@ -269,18 +269,18 @@
     {
       "path": "data/prefab/game/ninth_cia.unity3d",
       "type": "bundle",
-      "patchedSha256": "c0c97b031174c4b3e0c1fbb7986cbfff599438d31a36674797bad42fb2ee2df5",
-      "size": 76982,
+      "patchedSha256": "34baad9132aee676ab68e2e693515ce58b61f66ecd83420ddbef79b008894969",
+      "size": 76979,
       "asset": "data__prefab__game__ninth_cia.unity3d.wsre",
       "required": false,
       "group": "event",
       "baseSource": "files",
-      "baseSha256": "c24a1494a6902c6d200a9a1544994733449f87df1061b74027d5bb69c9265b26",
-      "release": "ko-0.1.3",
+      "baseSha256": "11a947181df2d35ddaf4dec96dc9113701d34a514e693b84b41c03ab186a71ef",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "3da0ecae459977acb4d8ecc6354bcbeef8c92d2e08de20b86c18916fbc516605",
-        "size": 77016
+        "sha256": "7888e63a440b58bb03149af92a1e94ba33085088fc39e4894daa0b3950558160",
+        "size": 77013
       }
     },
     {
@@ -303,18 +303,18 @@
     {
       "path": "data/prefab/game/score_cia.unity3d",
       "type": "bundle",
-      "patchedSha256": "267052d742124b0ee10611a5e1505968f04cf170b6bbb3ea0b5ecdd2ab1da875",
-      "size": 72046,
+      "patchedSha256": "98f98a1fe6824ef9de63bf2e95a73f4a36a212de2c4d74bbbf0def812d321532",
+      "size": 72041,
       "asset": "data__prefab__game__score_cia.unity3d.wsre",
       "required": false,
       "group": "event",
       "baseSource": "files",
-      "baseSha256": "02db495e10505e1725751356e40ac1d07bd2a78ad7c8a55c5b232d965c185c33",
-      "release": "ko-0.1.3",
+      "baseSha256": "ac840774fdc2deacf96a65def0e66456c6cd542ef5021585b6c10a4db3bad36b",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "09eeedb6b7e29257d2fb6a8768f0e9a1f175d44ca8ead1a9269d8d192f71bced",
-        "size": 72080
+        "sha256": "f8990d6a93bae250da336d52ab8cb1e1119f0c0e17d1690b149d6454a2553942",
+        "size": 72075
       }
     },
     {
@@ -337,18 +337,18 @@
     {
       "path": "data/prefab/game/select_tactis_view.unity3d",
       "type": "bundle",
-      "patchedSha256": "64a0f5f6075aa78d8bd4184032fceb0c476c0a308cc531769d35d1a12ac30f2e",
-      "size": 13055,
+      "patchedSha256": "25e6d3a86092ddfa4ad835879d3d0b154fb92ae95a9587ef5b8d51c133b74aca",
+      "size": 13224,
       "asset": "data__prefab__game__select_tactis_view.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "a2872dff2647db7dcb3f609f5171d7b6ac0f694643a4588f05ebe40b923ef1d2",
-      "release": "ko-0.1.3",
+      "baseSha256": "3503c01df964e32db5119e7aafdd9448513a9eaa1cb50143add29b78baf4e82a",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "5062ddee654cd92c3ec1bdd74248c2112516a93afb2f33953c26a1e8b1791556",
-        "size": 13089
+        "sha256": "1f06288ba238dfcfb70355eab7b04741ba651973d39d57b815fedb1567f752fc",
+        "size": 13258
       }
     },
     {
@@ -405,18 +405,18 @@
     {
       "path": "data/prefab/game/single_mall_item.unity3d",
       "type": "bundle",
-      "patchedSha256": "9a078a7043e42f2f129910eae216c3eed11753bb9cd7c3f98b9759f97739e2c0",
-      "size": 9497,
+      "patchedSha256": "4d5363cfed9da1b8446cbfbed5b76b929095a92d15f8cfbae4eed0948799bea0",
+      "size": 9895,
       "asset": "data__prefab__game__single_mall_item.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "apk",
-      "baseSha256": "cdc0a322ec6861ed73ca9191e72fdda6a24384e4cac568eb57dbba3f447a07a7",
-      "release": "ko-0.1.3",
+      "baseSha256": "8bc4728cc2d37d9cc4c3f08d0fa6d2c5a2e4eb1d022e2ee3823da5f89519f33d",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "55fe96ba46f4864cc8cc8fc9187a691bb2fa5a0b5e60fa9c3adb9990eb67b619",
-        "size": 9531
+        "sha256": "301dd48ce90dba7f5ed2d58daf9d4041718c82e4e9337295794db77c0d5ec3e3",
+        "size": 9929
       }
     },
     {
@@ -456,18 +456,18 @@
     {
       "path": "data/prefab/game/single_select_team.unity3d",
       "type": "bundle",
-      "patchedSha256": "8a99dbc11830b88af9bf58870de0f76db4b87ffba057f1c1eb1a7b4d9bd615c3",
-      "size": 31736,
+      "patchedSha256": "70e6b340b2c5df721b3053abfe65f19835e2e23aa258ced3bbc253a0f720dc45",
+      "size": 31740,
       "asset": "data__prefab__game__single_select_team.unity3d.wsre",
       "required": false,
       "group": "battle",
-      "baseSource": "files",
-      "baseSha256": "3153e1295b463dfd8f5b315fa01956410375730aa7a3ab54d4c90e2ddfd03851",
-      "release": "ko-0.1.3",
+      "baseSource": "apk",
+      "baseSha256": "9559cb3b31102496eb62290c3ef6dcbc1df99a3f45a910a1ad0879a581549e85",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "e2f8e3a9d05a41dfa34c75bf4e485604394c44b8762c241ed16c3bcbb96c41e4",
-        "size": 31770
+        "sha256": "19c906bb89b4441827387f5b057b2030072cacc76aebb30cd40944c8f1be67d5",
+        "size": 31774
       }
     },
     {
@@ -507,35 +507,35 @@
     {
       "path": "data/prefab/game/voucher_shop.unity3d",
       "type": "bundle",
-      "patchedSha256": "0f79c16c63edc6c72f34826276852f203cda2f7ce8c5490f73f4235f80e049b9",
-      "size": 49064,
+      "patchedSha256": "a4e5e421b4ba18edea1af54c51eae733d8dc431ca352c1991041716b6c0b432c",
+      "size": 49804,
       "asset": "data__prefab__game__voucher_shop.unity3d.wsre",
       "required": false,
       "group": "event",
-      "baseSource": "apk",
-      "baseSha256": "785f197962c82fc65f0393bca964b1e222994c1c6286e972cc0ae066d6dceb3c",
-      "release": "ko-0.1.3",
+      "baseSource": "files",
+      "baseSha256": "3242f576e6490f008c08f8191817057410091bb828bc281060cc2a5813c68887",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "6b0985aa8210cf9bb5dbbd74ce2b68203a329c3307097aac67a73558b7312f10",
-        "size": 49098
+        "sha256": "1bd3f4e4d9e0c14c8ffc6c39c39cc8be31f15c783c5f1ae197a22a9f1c342717",
+        "size": 49838
       }
     },
     {
       "path": "data/prefab/game/work_shop.unity3d",
       "type": "bundle",
-      "patchedSha256": "6eb463f91aa9a1e49270ed102da9b80ad9fd6219c01430363290dd3b4fabd924",
-      "size": 25286,
+      "patchedSha256": "d1ee8016904090743b6b8c4175279a4c970d937238116c6adf5d27aea349c8c4",
+      "size": 27530,
       "asset": "data__prefab__game__work_shop.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "apk",
-      "baseSha256": "06dffcae25bf016f37b50f32b795058ec8d6522c3c7972a110ec0a7321d3a571",
-      "release": "ko-0.1.3",
+      "baseSha256": "1e997207c84a1f7b90cb137d60a4cdb6c57b96d9664679aaa88f09fb5e19ea50",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "6e1f0f353dd38bfa311f38ec4be6b972ac0165eaa6e8bddfc172c6a422497f71",
-        "size": 25320
+        "sha256": "9ef333646301899b34220510ae38423607f65ab1b245653e77a984c3924d572c",
+        "size": 27564
       }
     },
     {
@@ -570,23 +570,6 @@
         "keyId": 1,
         "sha256": "c5af2763c4f748cded8bf6960afd003b837a139778b9a2f29ec410f6ac31a0b5",
         "size": 985720
-      }
-    },
-    {
-      "path": "data/ui/captain_room.unity3d",
-      "type": "bundle",
-      "patchedSha256": "75fc4fdf54eecd823757b8cdb2aa1d478c9b429f8bdc056faa8dfca0c14846c6",
-      "size": 1591730,
-      "asset": "data__ui__captain_room.unity3d.wsre",
-      "required": false,
-      "group": "menu",
-      "baseSource": "files",
-      "baseSha256": "47ba3c1dc523a13c62dbe0f6f002e8d5214231443eaa98e75dcdc2c46f5cbc4f",
-      "release": "ko-0.1.3",
-      "enc": {
-        "keyId": 1,
-        "sha256": "0c6295ca2902ba41d120fe1f478cd24b8608d2aa2df1bf4a3b95ef8d8349f68e",
-        "size": 1591780
       }
     },
     {
@@ -626,35 +609,18 @@
     {
       "path": "data/ui/fight/skill.unity3d",
       "type": "bundle",
-      "patchedSha256": "8f125e710e717b3feb2dfa837cc478c21f3d1ca93f46d28aaeb9f848adc0465d",
-      "size": 1372668,
+      "patchedSha256": "02cd7262a8d8f4b5c417fdf0f816c7c6c6c97ef9c200af552927637e7344b83e",
+      "size": 1379821,
       "asset": "data__ui__fight__skill.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "files",
-      "baseSha256": "fd7397f04516aa621f61d0febb8d5f0c8a5e59b0e2a680dd8860239ba7fc3360",
-      "release": "ko-0.2.4",
+      "baseSha256": "54cc291a56a50bca4481e7f625477304f18b75f45771c3b1e2b248cadaf6dda4",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "0ea1f0375ec6dc41f94947d313b0fa1c4ae0e10201e4cdb85757a6eacd020911",
-        "size": 1372718
-      }
-    },
-    {
-      "path": "data/ui/friend.unity3d",
-      "type": "bundle",
-      "patchedSha256": "ad301759d96a404e6e25bac35e04513260451f2ef5732551823849f0595ef28c",
-      "size": 432720,
-      "asset": "data__ui__friend.unity3d.wsre",
-      "required": false,
-      "group": "menu",
-      "baseSource": "apk",
-      "baseSha256": "42145741fac07d6ff46911d38e8ae0b99ea5b45e4b3aa3dc9f7c6ed62defa180",
-      "release": "ko-0.1.3",
-      "enc": {
-        "keyId": 1,
-        "sha256": "c0c7f4b6ebf3ac8af2b340870418da43559441dd43e0d3e0608b0e55276d62d1",
-        "size": 432754
+        "sha256": "7de7b991c9d06e59b05816bd9552c2cea377bba664d56f09b716aedb6b5bb9d7",
+        "size": 1379871
       }
     },
     {
@@ -745,35 +711,35 @@
     {
       "path": "data/ui/pre_formation.unity3d",
       "type": "bundle",
-      "patchedSha256": "9ccd136b5645d09fd236c4a78826282470c8e51b2069c4074f228ac003be3b06",
-      "size": 11499,
+      "patchedSha256": "aa6d33671d54c7489e358af85e008ebc093c9291d9f17ee2d659eb63b0fc1621",
+      "size": 11511,
       "asset": "data__ui__pre_formation.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "6adcb209af8ee7ea579e9204d69216b42169db4d095eaf6c926a11259e3be04a",
-      "release": "ko-0.1.3",
+      "baseSha256": "ba064edff0341de36aac8331d2fae1e6ff90802bb7b3ccb35c99b63361451089",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "92d24b23f2920c53d0951eb07f0d18440b14f2dd24e330e6a4044019d1033019",
-        "size": 11533
+        "sha256": "f734d0c982a87cdac90a08ff3257c52eec121e30649831b5f5c6a772f1956af5",
+        "size": 11545
       }
     },
     {
       "path": "data/ui/pve.unity3d",
       "type": "bundle",
-      "patchedSha256": "064a87d9bee16f6c318b22f4da71c9efe69e917f0be78bc33d43039e8755202a",
-      "size": 1279454,
+      "patchedSha256": "5bde109523d5b04937ff9a7d1cd72f150ba91ad577da6c15defe9d9a91b3184f",
+      "size": 1212074,
       "asset": "data__ui__pve.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "apk",
-      "baseSha256": "547b2e0d3b05623b2ff94d41dbdbbb0bbedd4c5a70c3359f685a2a41382c2f14",
-      "release": "ko-0.1.3",
+      "baseSha256": "3e05409c43c45ac58953e72f626e8deb9f3676d826995becf549690639944aaa",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "92838d3d216446b09e3185cd7e9b0643b73017d853291ab1079cde5aac06e594",
-        "size": 1279504
+        "sha256": "7a83349490a43c66b02fbddb8cf3789e6b4d79585cd04432e4f8b80693d8347e",
+        "size": 1212124
       }
     },
     {
@@ -818,7 +784,7 @@
       "asset": "data__ui__score_event__main.unity3d.wsre",
       "required": false,
       "group": "event",
-      "baseSource": "files",
+      "baseSource": "apk",
       "baseSha256": "1682c2ad726b9a186a744a259a545d2880a945fd779a3300a982b3cb2bab80c4",
       "release": "ko-0.1.3",
       "enc": {
@@ -881,18 +847,18 @@
     {
       "path": "data/ui/six_year_activity.unity3d",
       "type": "bundle",
-      "patchedSha256": "396b5a28b54d2c80be5834d6263ddc08ceba5fbf484614766914570fe57dde8a",
-      "size": 847740,
+      "patchedSha256": "6ef6c0f67d704850db10c76e859b2255affca3cb073328b9d8d6a5378dd16a2c",
+      "size": 847493,
       "asset": "data__ui__six_year_activity.unity3d.wsre",
       "required": false,
       "group": "event",
       "baseSource": "apk",
-      "baseSha256": "df334c908e135f985511172a32a0744c5be9f4fea21b3c561daa91da5dad041f",
-      "release": "ko-0.1.3",
+      "baseSha256": "75c719a8354db777c9761d96511c852e3d6c7dc1b862aac14fe7fe929984f9e3",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "fe22597d7e9e3be7c502a6eccb284253dd47321fefd14e8791b8bad5b02e780e",
-        "size": 847774
+        "sha256": "ba01f3ee44452156057fdabfe26aa291af16d889878f2704ec510e81a9b5a3cb",
+        "size": 847527
       }
     },
     {
@@ -1022,7 +988,7 @@
       "asset": "data_cn__effect_cn__lock_the_enemy.unity3d.wsre",
       "required": false,
       "group": "battle",
-      "baseSource": "files",
+      "baseSource": "apk",
       "baseSha256": "9e1e2a187280ac5946aaf146a92879bb9273ed02dba14fb68673c7e6308878e6",
       "release": "ko-0.1.3",
       "enc": {
@@ -1068,35 +1034,35 @@
     {
       "path": "data_cn/prefab_cn/game/remake.unity3d",
       "type": "bundle",
-      "patchedSha256": "dadec77bee81bd5e01def8597c75fc4360a1b6a0df84247134e349559f0e7556",
-      "size": 61895,
+      "patchedSha256": "530818b9082861123025dc05c880ca8d9835ed44386953dffa32c60f4890bbc4",
+      "size": 65477,
       "asset": "data_cn__prefab_cn__game__remake.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "apk",
-      "baseSha256": "8ca09b31e50f941304443f38354bd1dddfe6c841b4485ec91c81a092f11d692a",
-      "release": "ko-0.1.3",
+      "baseSha256": "296a97dc1d182ae1447e8dc4b237745312df15aa900e4b955b0a915e9b8db2ae",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "2060c38938266c5ec39f03932c96980ab40f092b23d8c828fbb6d0340cbeaff6",
-        "size": 61929
+        "sha256": "c66f6ac5436a07cad90505045a17353bac60001a027d0f7f265a215bdb736ef3",
+        "size": 65511
       }
     },
     {
       "path": "data_cn/prefab_cn/game/ship_detail.unity3d",
       "type": "bundle",
-      "patchedSha256": "a96a63a7ea8e1ad12cb220f80072c5887d0384b05268ffb6c8a90c1db96f426a",
-      "size": 134599,
+      "patchedSha256": "c8cb7e291cd0d851b408cd98f19cfef0614a842d88f1c8f95f985f7f534522a3",
+      "size": 134631,
       "asset": "data_cn__prefab_cn__game__ship_detail.unity3d.wsre",
       "required": false,
       "group": "menu",
       "baseSource": "apk",
-      "baseSha256": "e1c9b0e20f9926db06a48b667e84a60a8b84961fda8b03ca3177970c9b5b3bb8",
-      "release": "ko-0.1.3",
+      "baseSha256": "0ea2da77c4a0957339c0739448bfd60b2459b716ba9a8ea1e9d75ab283af4340",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "2081acd80fae70e4f3eb66dfd66a586d72cb5bd85abe9de3160baa808cbe6592",
-        "size": 134633
+        "sha256": "0cc6336e10d57a4d218a728e5dfbe164d2a53db6c3a9f3983318df84fdfa87fd",
+        "size": 134665
       }
     },
     {
@@ -1328,7 +1294,7 @@
       "asset": "data_cn__ui_cn__main.unity3d.wsre",
       "required": false,
       "group": "menu",
-      "baseSource": "files",
+      "baseSource": "apk",
       "baseSha256": "00fb4c0f35381e8c0c91eb44796774eed168f3184e49f630c194c3de4e42f09b",
       "release": "ko-0.2.14",
       "enc": {
@@ -1578,31 +1544,31 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "221c56eeba68d01d6868225c6ac6f7fc8a14522b149f9c41bff7f24cbbfa221a",
-      "size": 17908648,
+      "patchedSha256": "74d4cda276152cdcb55a620f2e5ffc13850b529f29e945215c43f74de20bfc12",
+      "size": 16127812,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
-      "baseSha256": "e28c82ac371c110397d3b2a11c72b568fef1e8507fc8c428eb50ddf39c8fcd2a",
-      "release": "ko-0.2.19",
+      "baseSha256": "3905b90d19f424749181ec93bbf0e60ceb33b9efc15d04e5b6802024c7f6b685",
+      "release": "ko-0.2.24",
       "enc": {
         "keyId": 1,
-        "sha256": "2ab39f79b9a0abc30a0a3a0221fee6565b6817a2f88599a445a8085890881f6f",
-        "size": 17908954
+        "sha256": "461ebf34c03338a1db86c3ed3fdbfa437e929cae8bf277fc3ee4ab1470103df4",
+        "size": 16128086
       },
       "packs": [
         {
           "kind": "full",
-          "base": "e28c82ac371c110397d3b2a11c72b568fef1e8507fc8c428eb50ddf39c8fcd2a",
-          "entries": 46,
+          "base": "3905b90d19f424749181ec93bbf0e60ceb33b9efc15d04e5b6802024c7f6b685",
+          "entries": 48,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.19",
-          "size": 805729,
+          "release": "ko-0.2.24",
+          "size": 884762,
           "enc": {
             "keyId": 1,
-            "sha256": "c21658befeaf868ae527e384228813f3cb337221ddc2843369279eda9c1631bb",
-            "size": 805763
+            "sha256": "317e7d721aa1d9c3abf5d426033b77bd35d77e72f51c60cb964cbb4f65ebaf0b",
+            "size": 884796
           }
         }
       ]
@@ -1635,9 +1601,29 @@
       "path": "config.conf"
     },
     {
+      "sha256": "dedffd014c7a70f3347b97064ac9de775890b00482d9a54144552420917d019b",
+      "size": 17189,
+      "path": "data/prefab/game/abyss_quest.unity3d"
+    },
+    {
+      "sha256": "6da430f1b5a71d76addb2890fbe8638b8e3726f202661528f59823f7141b77a6",
+      "size": 17452,
+      "path": "data/prefab/game/answer_award.unity3d"
+    },
+    {
       "sha256": "84b27237259e78a2b57c26155b46033f386d5560cb6ac93f90871d286caaa287",
       "size": 80319,
       "path": "data/prefab/game/bathroom.unity3d"
+    },
+    {
+      "sha256": "f10a39e37dcfb2b1ace76a84988b283606fa41af181306fd8dbcbe03598a1dbd",
+      "size": 80333,
+      "path": "data/prefab/game/bathroom.unity3d"
+    },
+    {
+      "sha256": "5c91a0424a6d9409c155eb845964319b3eece39dd7f8a2a90e2e1a25f654ff56",
+      "size": 134197,
+      "path": "data/prefab/game/campaign.unity3d"
     },
     {
       "sha256": "34a2c75934f9f21b7d93ac248ba918facad4f65a6593e58b4621c7f3988faa54",
@@ -1650,14 +1636,109 @@
       "path": "data/prefab/game/dorm_warehouse.unity3d"
     },
     {
+      "sha256": "c582146cb4de61ce6cd25d678d81373fafc555c42f75e4b8597ddad819e32d8a",
+      "size": 37826,
+      "path": "data/prefab/game/enemy_ship_detail.unity3d"
+    },
+    {
+      "sha256": "dfd35fa78acc91d196449fec7bf3cb8c66bf6bbf6a82877ebce3a75de6685cc1",
+      "size": 24759,
+      "path": "data/prefab/game/fifth_awardbox.unity3d"
+    },
+    {
+      "sha256": "758c9e161ef040cd9c6b0f959126c07f199d4edb44449fbea76205c99b157c39",
+      "size": 187355,
+      "path": "data/prefab/game/fight_info.unity3d"
+    },
+    {
+      "sha256": "97184507978b74e19e176781228f4a68a55c440661a626c543abe7286f2f2691",
+      "size": 27944,
+      "path": "data/prefab/game/fight_prepare_ship_item.unity3d"
+    },
+    {
+      "sha256": "018cb1ed06e896442929470354550b5741493f0b3be952eb5511b38daa9b59db",
+      "size": 43806,
+      "path": "data/prefab/game/mall_shop.unity3d"
+    },
+    {
+      "sha256": "c0c97b031174c4b3e0c1fbb7986cbfff599438d31a36674797bad42fb2ee2df5",
+      "size": 76982,
+      "path": "data/prefab/game/ninth_cia.unity3d"
+    },
+    {
+      "sha256": "267052d742124b0ee10611a5e1505968f04cf170b6bbb3ea0b5ecdd2ab1da875",
+      "size": 72046,
+      "path": "data/prefab/game/score_cia.unity3d"
+    },
+    {
+      "sha256": "64a0f5f6075aa78d8bd4184032fceb0c476c0a308cc531769d35d1a12ac30f2e",
+      "size": 13055,
+      "path": "data/prefab/game/select_tactis_view.unity3d"
+    },
+    {
+      "sha256": "9a078a7043e42f2f129910eae216c3eed11753bb9cd7c3f98b9759f97739e2c0",
+      "size": 9497,
+      "path": "data/prefab/game/single_mall_item.unity3d"
+    },
+    {
+      "sha256": "8a99dbc11830b88af9bf58870de0f76db4b87ffba057f1c1eb1a7b4d9bd615c3",
+      "size": 31736,
+      "path": "data/prefab/game/single_select_team.unity3d"
+    },
+    {
+      "sha256": "0f79c16c63edc6c72f34826276852f203cda2f7ce8c5490f73f4235f80e049b9",
+      "size": 49064,
+      "path": "data/prefab/game/voucher_shop.unity3d"
+    },
+    {
+      "sha256": "6eb463f91aa9a1e49270ed102da9b80ad9fd6219c01430363290dd3b4fabd924",
+      "size": 25286,
+      "path": "data/prefab/game/work_shop.unity3d"
+    },
+    {
+      "sha256": "75fc4fdf54eecd823757b8cdb2aa1d478c9b429f8bdc056faa8dfca0c14846c6",
+      "size": 1591730,
+      "path": "data/ui/captain_room.unity3d"
+    },
+    {
+      "sha256": "ad301759d96a404e6e25bac35e04513260451f2ef5732551823849f0595ef28c",
+      "size": 432720,
+      "path": "data/ui/friend.unity3d"
+    },
+    {
       "sha256": "60029b32f485cb958d9b08d93526a5d2121c57710825e49cf2981c99130af19d",
       "size": 2284946,
       "path": "data/ui/guide_pic.unity3d"
     },
     {
+      "sha256": "9ccd136b5645d09fd236c4a78826282470c8e51b2069c4074f228ac003be3b06",
+      "size": 11499,
+      "path": "data/ui/pre_formation.unity3d"
+    },
+    {
+      "sha256": "064a87d9bee16f6c318b22f4da71c9efe69e917f0be78bc33d43039e8755202a",
+      "size": 1279454,
+      "path": "data/ui/pve.unity3d"
+    },
+    {
+      "sha256": "396b5a28b54d2c80be5834d6263ddc08ceba5fbf484614766914570fe57dde8a",
+      "size": 847740,
+      "path": "data/ui/six_year_activity.unity3d"
+    },
+    {
       "sha256": "a69a7a29011ea238530eacd78963a576796301426c16121cb62a0894340e6e19",
       "size": 18249565,
       "path": "data/ui/six_year_activity/six_main_interface.unity3d"
+    },
+    {
+      "sha256": "dadec77bee81bd5e01def8597c75fc4360a1b6a0df84247134e349559f0e7556",
+      "size": 61895,
+      "path": "data_cn/prefab_cn/game/remake.unity3d"
+    },
+    {
+      "sha256": "a96a63a7ea8e1ad12cb220f80072c5887d0384b05268ffb6c8a90c1db96f426a",
+      "size": 134599,
+      "path": "data_cn/prefab_cn/game/ship_detail.unity3d"
     },
     {
       "sha256": "acba2d3a7d421df5898a7845e59990ad7206caef6a966d50c4fa000d1e0bff8d",
@@ -1808,9 +1889,51 @@
       "sha256": "649bd255f9737c723a62aedac3a3a4d9ebc848e89a677c51652af92027a77179",
       "size": 123562400,
       "path": "config.conf"
+    },
+    {
+      "sha256": "d33b67df51c66fad2055a9135bdff8fff050d2aa18ddfb9898e9c357a453c16b",
+      "size": 123562391,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "e4817b0cefc89259b6708df2e08878a5373bebde0e7dd3dbb1198fc0fd9b6fa7",
+      "size": 29888,
+      "path": "data/prefab/game/dorm_warehouse.unity3d"
+    },
+    {
+      "sha256": "8f125e710e717b3feb2dfa837cc478c21f3d1ca93f46d28aaeb9f848adc0465d",
+      "size": 1372668,
+      "path": "data/ui/fight/skill.unity3d"
+    },
+    {
+      "sha256": "221c56eeba68d01d6868225c6ac6f7fc8a14522b149f9c41bff7f24cbbfa221a",
+      "size": 17908648,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.24",
+      "date": "2026-11-28",
+      "items": [
+        {
+          "src": "t",
+          "text": "게임 0.0.650.2(APK 5.6.1) 대응: 새 함선 U-459·U-3008 대사, 새 스킨 3종(아트미랄 히퍼·Z46·샌환), 새 스킬과 바뀐 스킬 설명, 바뀐 도감 설명, 의상 상점·계정 연동 화면 문구(《창청의 안식처》), 결제 오류 안내 번역 반영"
+        },
+        {
+          "src": "t",
+          "text": "海盗(Corsair) 표기를 '코세어'로 통일(F4U 코세어, F2G 슈퍼 코세어 등)"
+        },
+        {
+          "src": "t",
+          "text": "계정 연동 화면의 서버 확인 입력 문구는 원문 그대로 둠(입력 대조 오류 방지)"
+        },
+        {
+          "src": "g",
+          "text": "게임 0.0.650.2(APK 5.6.1) 대응: 게임이 바꾼 화면 묶음 23개를 새 판 기준으로 다시 만들고, 새로 생긴 화면 글자(수리 일괄, 의상 상점 탭, 공방 탭 등)를 번역함"
+        }
+      ]
+    },
     {
       "version": "0.2.21",
       "date": "2026-11-27",
@@ -1954,44 +2077,6 @@
         {
           "src": "g",
           "text": "스킬 컷인 2건(12번·60번) 이름을 원문 표기(BIG SEVEN, 기함 킬러(0v0))로 되돌림"
-        }
-      ]
-    },
-    {
-      "version": "0.2.3",
-      "date": "2026-10-17",
-      "items": [
-        {
-          "src": "t",
-          "text": "스킬 이름 26건 수정"
-        },
-        {
-          "src": "t",
-          "text": "스킬 효과 설명 29건 수정"
-        },
-        {
-          "src": "t",
-          "text": "적 함종 표기 4건 수정"
-        },
-        {
-          "src": "t",
-          "text": "함선 도감 설명 3건 수정"
-        },
-        {
-          "src": "t",
-          "text": "이벤트 문구 9건 수정"
-        },
-        {
-          "src": "t",
-          "text": "안내·메뉴 문구 12건 수정"
-        },
-        {
-          "src": "g",
-          "text": "스킬 컷인 52건 수정"
-        },
-        {
-          "src": "g",
-          "text": "텍스트 배치 1건 수정"
         }
       ]
     }
