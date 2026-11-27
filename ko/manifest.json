@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.19",
-  "built": "2026-11-20T18:08:16+09:00",
-  "release": "ko-0.2.19",
+  "version": "0.2.21",
+  "built": "2026-11-27T23:29:49+09:00",
+  "release": "ko-0.2.21",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "649bd255f9737c723a62aedac3a3a4d9ebc848e89a677c51652af92027a77179",
-      "size": 123562400,
+      "patchedSha256": "d33b67df51c66fad2055a9135bdff8fff050d2aa18ddfb9898e9c357a453c16b",
+      "size": 123562391,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
-      "release": "ko-0.2.19",
+      "release": "ko-0.2.21",
       "enc": {
         "keyId": 1,
-        "sha256": "f96019298953677000ff1188d0f8f7b886991b0e918a2a3595c5c5504ab43000",
-        "size": 123564306
+        "sha256": "c370125c9e02107c7dff7982015e26606648bfc6f82b098d26b63658b70078fa",
+        "size": 123564297
       },
       "packs": [
         {
@@ -35,12 +35,12 @@
           "base": "fdae1c8ad30914cb7b8c0035ba09fb1a85d28937e4078668d64a0bd2fe51a182",
           "entries": 165,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.19",
-          "size": 9249307,
+          "release": "ko-0.2.21",
+          "size": 9249300,
           "enc": {
             "keyId": 1,
-            "sha256": "61249849181b50b50091c2c1d1648b4478970abab3862cd5ba120602b82f5bbe",
-            "size": 9249469
+            "sha256": "74085f47fa29ad6db5d2073046232f05fa34523899b053e2473c8b83a55e68c4",
+            "size": 9249462
           }
         }
       ]
@@ -1803,9 +1803,24 @@
       "sha256": "3391ad13259d91867622b54016f57efe2bac10bd25a78f73da4e69f3b63f7838",
       "size": 17303872,
       "path": "script.script"
+    },
+    {
+      "sha256": "649bd255f9737c723a62aedac3a3a4d9ebc848e89a677c51652af92027a77179",
+      "size": 123562400,
+      "path": "config.conf"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.21",
+      "date": "2026-11-27",
+      "items": [
+        {
+          "src": "t",
+          "text": "대사·도감·장비 설명 등에서 함종과 함선 이름의 순서가 뒤바뀐 표현을 바로잡음(오하이오 전함 → 전함 오하이오, 래, 랭글리 항모예요 → 항, 항모 랭글리예요 등)"
+        }
+      ]
+    },
     {
       "version": "0.2.19",
       "date": "2026-11-20",
@@ -1977,36 +1992,6 @@
         {
           "src": "g",
           "text": "텍스트 배치 1건 수정"
-        }
-      ]
-    },
-    {
-      "version": "0.2.1",
-      "date": "2026-10-17",
-      "items": [
-        {
-          "src": "t",
-          "text": "출격·친구·도크·강화 화면의 메뉴 탭 표기를 보기 좋게 통일"
-        },
-        {
-          "src": "t",
-          "text": "스킬이 없는 함선의 스킬 칸 문구 수정"
-        },
-        {
-          "src": "t",
-          "text": "함선 대사 오역·어색한 표현 14건 수정"
-        },
-        {
-          "src": "t",
-          "text": "대사 맞춤법 5건 수정 (바람, 해야 해)"
-        },
-        {
-          "src": "g",
-          "text": "함선 강화 화면 `추가` 글자 번짐 수정 (1건)"
-        },
-        {
-          "src": "g",
-          "text": "스킬 발동 컷인 이미지 한글화 (52장)"
         }
       ]
     }
