@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "language": "ko",
-  "version": "0.2.24",
-  "built": "2026-11-28T02:13:40+09:00",
-  "release": "ko-0.2.24",
+  "version": "0.2.25",
+  "built": "2026-11-28T17:31:08+09:00",
+  "release": "ko-0.2.25",
   "target": {
     "versions": [
       {
@@ -16,18 +16,18 @@
     {
       "path": "config.conf",
       "type": "text",
-      "patchedSha256": "c538b56bdb40c3eeef448e4213304d59f68e5ee2ab38577371b569e0b52975c5",
-      "size": 115140120,
+      "patchedSha256": "51eedadf659a9599935776bcb8b2013cd3a988a642519766b92a46362e23bc42",
+      "size": 115140126,
       "asset": "config.conf.wsre",
       "required": true,
       "group": "text_data",
       "baseSource": "files",
       "baseSha256": "939af8f628c8adefafe67a6165125cf2fbe4335b205979c430a94e09e4176199",
-      "release": "ko-0.2.24",
+      "release": "ko-0.2.25",
       "enc": {
         "keyId": 1,
-        "sha256": "ae381fc07a2f79a5e2492b1bd2b537e92307579fbde3177ed7e20e50d2d31eb6",
-        "size": 115141898
+        "sha256": "c51dfadabbc98f7ce02390eee7dd94676612fc22e05f6bab63b5bd5208b3da7a",
+        "size": 115141904
       },
       "packs": [
         {
@@ -35,12 +35,12 @@
           "base": "939af8f628c8adefafe67a6165125cf2fbe4335b205979c430a94e09e4176199",
           "entries": 163,
           "asset": "config.conf.full.pack.zip.wsre",
-          "release": "ko-0.2.24",
-          "size": 8984218,
+          "release": "ko-0.2.25",
+          "size": 8984229,
           "enc": {
             "keyId": 1,
-            "sha256": "824156e074141c3a04e84f849961cdd3c240a2c412944581608d199a613250aa",
-            "size": 8984380
+            "sha256": "e93e1b04ef7c8a9cd3984ac37e5c89c3667d8c891e8aa5d8f08317a45bfe655b",
+            "size": 8984391
           }
         }
       ]
@@ -609,18 +609,18 @@
     {
       "path": "data/ui/fight/skill.unity3d",
       "type": "bundle",
-      "patchedSha256": "02cd7262a8d8f4b5c417fdf0f816c7c6c6c97ef9c200af552927637e7344b83e",
-      "size": 1379821,
+      "patchedSha256": "2b79503558b193b35a908b62d9cb25030b47a15d702396c416554931356dfb12",
+      "size": 1396402,
       "asset": "data__ui__fight__skill.unity3d.wsre",
       "required": false,
       "group": "battle",
       "baseSource": "files",
       "baseSha256": "54cc291a56a50bca4481e7f625477304f18b75f45771c3b1e2b248cadaf6dda4",
-      "release": "ko-0.2.24",
+      "release": "ko-0.2.25",
       "enc": {
         "keyId": 1,
-        "sha256": "7de7b991c9d06e59b05816bd9552c2cea377bba664d56f09b716aedb6b5bb9d7",
-        "size": 1379871
+        "sha256": "bc21f3cdb540f7e4354ba9474ad99b2299add95df3b34203e1ed3825c4356a10",
+        "size": 1396452
       }
     },
     {
@@ -1544,18 +1544,18 @@
     {
       "path": "script.script",
       "type": "text",
-      "patchedSha256": "74d4cda276152cdcb55a620f2e5ffc13850b529f29e945215c43f74de20bfc12",
-      "size": 16127812,
+      "patchedSha256": "7f400f3f0649ceb448bd4a5255a6a54eabcaa92a686b1d2382e4e47bf16823c8",
+      "size": 16133220,
       "asset": "script.script.wsre",
       "required": true,
       "group": "text_ui",
       "baseSource": "files",
       "baseSha256": "3905b90d19f424749181ec93bbf0e60ceb33b9efc15d04e5b6802024c7f6b685",
-      "release": "ko-0.2.24",
+      "release": "ko-0.2.25",
       "enc": {
         "keyId": 1,
-        "sha256": "461ebf34c03338a1db86c3ed3fdbfa437e929cae8bf277fc3ee4ab1470103df4",
-        "size": 16128086
+        "sha256": "521e0871a08133df3fdc838b2c76d5b6f750c30fbc0a194442b305837f79ff9e",
+        "size": 16133494
       },
       "packs": [
         {
@@ -1563,12 +1563,12 @@
           "base": "3905b90d19f424749181ec93bbf0e60ceb33b9efc15d04e5b6802024c7f6b685",
           "entries": 48,
           "asset": "script.script.full.pack.zip.wsre",
-          "release": "ko-0.2.24",
-          "size": 884762,
+          "release": "ko-0.2.25",
+          "size": 884445,
           "enc": {
             "keyId": 1,
-            "sha256": "317e7d721aa1d9c3abf5d426033b77bd35d77e72f51c60cb964cbb4f65ebaf0b",
-            "size": 884796
+            "sha256": "b6f1eb3745ac78e2707926a371937db90efda5270423d9dc4145a7ccbe4fe37e",
+            "size": 884479
           }
         }
       ]
@@ -1909,9 +1909,38 @@
       "sha256": "221c56eeba68d01d6868225c6ac6f7fc8a14522b149f9c41bff7f24cbbfa221a",
       "size": 17908648,
       "path": "script.script"
+    },
+    {
+      "sha256": "c538b56bdb40c3eeef448e4213304d59f68e5ee2ab38577371b569e0b52975c5",
+      "size": 115140120,
+      "path": "config.conf"
+    },
+    {
+      "sha256": "02cd7262a8d8f4b5c417fdf0f816c7c6c6c97ef9c200af552927637e7344b83e",
+      "size": 1379821,
+      "path": "data/ui/fight/skill.unity3d"
+    },
+    {
+      "sha256": "74d4cda276152cdcb55a620f2e5ffc13850b529f29e945215c43f74de20bfc12",
+      "size": 16127812,
+      "path": "script.script"
     }
   ],
   "changes": [
+    {
+      "version": "0.2.25",
+      "date": "2026-11-28",
+      "items": [
+        {
+          "src": "t",
+          "text": "게임 0.0.650.2 이후 다시 중문으로 보이던 화면 문구(도감 표시 버튼·필터·함종 약어·잠긴 칸 등)를 바로잡고, 도감 보유 필터를 획득함/미획득/미보유로, 국적 필터 '전부'를 '전체'로 맞춤"
+        },
+        {
+          "src": "g",
+          "text": "코럴 시 스킬 '불멸의 전사' 발동 그림 글자를 번역함"
+        }
+      ]
+    },
     {
       "version": "0.2.24",
       "date": "2026-11-28",
@@ -2055,28 +2084,6 @@
         {
           "src": "t",
           "text": "게임 데이터 0.0.631.2에 맞춰 다시 만듦 (번역 변경 없음)"
-        }
-      ]
-    },
-    {
-      "version": "0.2.4",
-      "date": "2026-10-22",
-      "items": [
-        {
-          "src": "t",
-          "text": "스킬 설명 1~4단계 문구를 짧게 정리하고 0단계 효과 누락을 보완함 (1,158곳)"
-        },
-        {
-          "src": "t",
-          "text": "화면 문구에 \\n 글자가 그대로 보이던 곳을 줄바꿈으로 고침 (16곳)"
-        },
-        {
-          "src": "g",
-          "text": "스킬 컷인 글자 크기·효과 개선 52건"
-        },
-        {
-          "src": "g",
-          "text": "스킬 컷인 2건(12번·60번) 이름을 원문 표기(BIG SEVEN, 기함 킬러(0v0))로 되돌림"
         }
       ]
     }
